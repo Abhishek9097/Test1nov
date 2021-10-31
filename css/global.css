@@ -1,0 +1,821 @@
+
+/*  default style sheeet */
+body { font-family: 'GothamBlack'; position: relative; }
+* { padding: 0; margin: 0; box-sizing: border-box;}
+h2 { font-size: 55px; margin: 0; color: #f47b3c;  }
+p { font-size: 16px; color: #000; line-height: 26px; font-family: 'museosansrounded300webfont'; font-weight: 500; }
+span.redstar { color: red; font-size: 24px; position: absolute; left: -13px; top: -9px;}
+.formright .signform .form-group { position: relative; }
+/* topbar */
+.tollfreeno { width: 25%; float: left; margin-top: 17px; position: relative; text-align: left; margin-left: 10px;}
+.tollfreeno p {color: #000; font-size: 14px; font-weight: 400; font-family: 'BEBAS'; margin: 0; text-align: left;}
+/* make in india */
+.bg_white { background: #fff; }
+.bg_light { background: #4dcbd7;}
+.plr0 { padding-left: 0 !important;  padding-right: 0 !important;}
+
+.topbar { padding: 0 0 5px 0; border-bottom: 1px solid #1dbecf; }
+.top { width: 100%; float: left; }
+.top .supportindia h2 { font-size: 7px; font-family: 'museosansrounded300webfont'; font-weight: 600; position: absolute; transform: rotate(-89deg); left: 100px;
+    top: 22px; color: #58595b; }
+.top .supportindia .startup { width: 30%; float: left; }
+.top .supportindia .makeinindia { width: 15%; float: left; }
+.top .supportindia .ashok { width: 55%; float: left; }
+.top .supportindia { width: 60%; float: right;     margin-top: 7px; position: relative;}
+.top .supportindia .text { margin-top: 5px; }
+.top .supportindia .text span { display: block; margin-left: 40px; font-size: 12px; font-weight: 600; color: #58595b; line-height: 15px;}
+
+/*  custom style sheeet */
+.mycontainer { width: 1200px; margin-right: auto; margin-left: auto; padding: 0 15px; }
+#wrapper { width: 100%; float: left; position: relative; }
+.modal-header { border-bottom: 0px; padding: 0; }
+
+/*	home page */
+.header { top: 0; z-index: 1; width: 100%; float: left; max-height: 70px; height: auto; }
+.header .logo { padding: 5px 0; width: 100%; height: auto; float: left; }
+.header .logo img { width: 85%; float: left; }
+.header .headerleft { float: right; text-align: right; }
+.header .headerleft .righttop { width: 90%; float: right; text-align: right; }
+.header .headerleft .righttop .email { text-align: right; float: right; width: 30%; }
+.header .headerleft .righttop .email p { color: #fff; font-size: 25px; margin: 0; }
+.header .headerleft .righttop .phone { text-align: right; float: right; width: 30%; }
+.header .headerleft .righttop .phone p { color: #fff; font-size: 25px; margin: 0; }
+
+.mobilemmenu { display: none; }
+.header .headerleft .rightbottom { float: left; }
+.header .headerleft .rightbottom .menu nav ul{ float: right; position: relative; }
+.header .headerleft .rightbottom .menu nav ul li { display: inline-block; float: left;   }
+.header .headerleft .rightbottom .menu nav a { position: relative; display: block; padding: 33px 15px; color: #58595b; text-decoration:none; cursor: pointer; font-weight: 600; text-align: center; line-height: 18px; text-transform: uppercase; } 
+.header .headerleft .rightbottom .menu a.active { color: #23b9ce !important; border-bottom: 2px solid #23b9ce !important; }
+.header .headerleft .rightbottom .menu nav ul li.active a:hover { color: #3893a0; background:#7ad4e1; text-decoration:none; }
+.header .menu nav ul li.active a { color: #3893a0 !important; background:#7ad4e1; text-decoration: none; }
+.header .searchBox { width: 100%; float: left; margin: 0 auto; padding: 0;}
+.header .searchBox ul { float: right; position: relative; text-align: right; }
+.header .searchBox ul li { display: inline-block; float: left; position: relative; }
+.header .searchBox ul li a { font-family: 'helvetica87-condensedheavy';    transition: .2s all; position: relative; display: block; padding: 28px 10px; color: #58595b; line-height: 23px; text-decoration:none; cursor: pointer; }
+.header .headerleft .rightbottom .menu ul>li  { font-size: 20px; font-weight: 600; text-align: center; float: left; list-style-type: none; position: relative ; }
+.header .headerleft .rightbottom .menu ul>li>a {    transition: .2s all; color: #58595b; text-decoration: none; font-size: 14px; padding: 25px 14px; font-family: 'helvetica87-condensedheavy'; }
+.header .searchBox ul li a.storelogin { color: #fff; background: #51bfcf; text-transform: uppercase; font-weight: 600; margin-top: 12px; margin-right: 22px; font-size: 14px; font-family: 'helvetica87-condensedheavy'; border-radius: 4px;}
+.header .headerleft .rightbottom .menu ul>li>ul { opacity: 0.8; background: #fff; z-index: 9; top: 68px; left: 0px; width: 150px; position: absolute; display: none;}
+.header .headerleft .rightbottom .menu ul>li>ul>li { padding: 0px; width: 100%; float: left; margin: 0px; text-align: left; }
+.header .headerleft .rightbottom .menu ul>li>ul>li>a {     text-align: center;    transition: .2s all;text-decoration: none; color: #58595b; padding: 10px 0px; border-bottom: 2px solid #58595b; font-size: 12px; }
+.header .headerleft .rightbottom .menu ul>li>ul>li>a:hover { background: #fff;}
+.header .headerleft .rightbottom .menu ul>li>ul>li a img { width: 100%; }
+.header .headerleft .rightbottom .menu ul>li>ul>li:last-of-type a { border-bottom: 0px solid #58595b; }
+
+.header .headerleft .rightbottom .menu ul>li:hover >ul { display: block; }	
+.productpop ul>li a { border-bottom: 2px solid #58595b; }
+.productli .sub { position: relative; padding: 0 !important; }
+.productli .sub a {  padding: 15px 18px !important; font-family: HelveticaNeueLTCom-Cn!important; }
+.header .headerleft .rightbottom .menu a:hover { color: #23b9ce; }
+.header .headerleft .rightbottom .menu nav ul li .productpop .productli .sub .product2 li a:hover { color: #23b9ce; }
+.productli .sub:after { position: absolute; content:"\f054";  font-family: fontAwesome;  color: #000; top: 16px; right: 15px;   font-size: 10px;}
+
+.header .headerleft .rightbottom .menu nav ul li .productpop .productli li .product2 { background: #fff; z-index: 9; top: 4px; left: 110px; width: 190px; position: absolute; display: none; }
+.header .headerleft .rightbottom .menu nav ul li .productpop .productli .sub .product2 li a { text-decoration: none; color: #58595b; font-size: 14px;   padding: 13px !important;  font-family: 'HelveticaNeueLTCom-Cn'; }
+.header .headerleft .rightbottom .menu nav ul li .productpop .productli .sub .product2 li a:hover { background: #fff;}
+.header .headerleft .rightbottom .menu nav ul li .productpop .productli .sub .product2 li a img { width: 100%; }
+.header .headerleft .rightbottom .menu nav ul li .productpop .productli .sub:hover .product2 { display: block; }
+
+/* social icon top */ 
+.topbar_header .socialicon { width: 100%; float: left;  }
+.topbar_header .socialicon ul  { list-style-type: none; margin: 0; }
+.topbar_header .socialicon ul li  { float: left; padding-right: 24px;  }
+.topbar_header .socialicon ul li a  { color: #666; font-size: 14px; }
+.topbar_header .socialicon ul li a .fa { font-size: 22px; }
+.topbar_header .socialicon ul li a img { width: 24px; }
+.topbar_header .socialicon ul li a .fa-facebook { color: #ffffff; }
+.topbar_header .socialicon ul li a .fa-twitter { color: #ffffff; }
+.topbar_header .socialicon ul li a .fa-linkedin { color: #ffffff;}
+.topbar_header .socialicon ul li a .fa-instagram { color: #ffffff;  }
+/*	search top area  */
+
+#searcharea { width: 300px; position: fixed; right: 93px; top: 90px; z-index: 9999; }
+.input-group .form-control { height: 35px; }
+#searcharea .searchbtn { background: #23b9ce; color: #fff; text-transform: uppercase; padding: 6px 12px; font-size: 14px; line-height: 1.42857143;
+border: none; height: 35px; border-radius: 0 5px 5px 0; }
+
+
+/*	search top area */
+.popup .formlogo img { margin: 0 auto; display: block; width: 150px;}
+.popup { width: 350px; float: right; padding: 10px 25px; background: #fff; top: 0; right: 0; }
+.popup a { font-size: 16px; color: #58595b; }
+.popup .formto { width: 100%; float: left; }
+.popup .formto h1 { font-size: 30px; color: #ee7e32; font-weight: bold; font-family: 'museosansrounded300webfont'; font-weight: 700; margin-top: 5px;}
+.popup .formto h1 span { color: #45bace; }
+.popup .formto p { font-size: 14px; color: #58595b; line-height: 20px; font-family: 'museosansrounded300webfont'; font-weight: 300; }
+.popup .formleft { width: 100%; float: left; text-align: center; }
+.popup .formleft a.formsubmit { border: none; margin: 0; border-radius: 5px; text-align: center; font-size: 14px; background: #45bace; color: #fff;  padding: 7px 30px; float: left;}
+.popup .formleft p { font-size: 22px; color: #58595b; }
+.popup .formleft .loginform [type=email] { border: none; border-bottom: 1px solid #ccc; margin: 0 0 10px 0; border-radius: 0px; padding: 0; font-size: 14px; }
+.popup .formleft .loginform [type=password] { border: none; border-bottom: 1px solid #ccc; margin: 0 0 10px 0; border-radius: 0px; padding: 0; font-size: 14px; }
+.popup .formleft .loginform [type=submit] { border: none; margin: 0; border-radius: 5px; text-align: center; font-size: 14px; background: #45bace; color: #fff;  padding: 7px 30px; }
+.popup .formleft .loginform h2 { color: #747474; font-size: 14px; float: left; width: 100%; padding: 10px 0; }
+.popup .formleft .loginform h3 { color: #747474; font-size: 14px; text-align: center; padding: 10px 0; }
+.popup .formleft .loginform .socialsign { width: 100%; padding: 0; margin: 0; width: 220px; }
+.popup .formleft .loginform .socialsign a.facebook { font-size: 13px; border-radius: 2px; border: 1px solid #888; padding: 5px 5px 5px 30px; float: left; position: relative; width: 100px; }
+.popup .formleft .loginform .socialsign a.facebook:before { content: "\f09a"; position: absolute; font-family: FontAwesome; font-size: 15px; left: 10px; top: 3px; }
+.popup .formleft .loginform .socialsign a.twitter { font-size: 13px; border-radius: 2px; border: 1px solid #888; padding: 5px 5px 5px 30px; float: right; position: relative; width:100px; }
+.popup .formleft .loginform .socialsign a.twitter:before { content: "\f099"; position: absolute; font-family: FontAwesome; font-size: 15px; left: 10px; top: 3px; }
+.popup .formright { width: 100%; float: left; padding: 10px 0px 0 0; }
+.popup .formright p { font-size: 30px; color: #ee7e32; margin-top: 10px; font-weight: 700;  }
+.popup .signform input:focus { outline: 0;     box-shadow: inherit;}
+.popup .formright .signform [type=text] { border: none; border-bottom: 1px solid #ccc; margin: 0 0 10px 0; border-radius: 0px; padding: 0; font-size: 14px; }
+.popup .formright .signform [type=tel] { border: none; border-bottom: 1px solid #ccc; margin: 0 0 10px 0; border-radius: 0px; padding: 0; font-size: 14px; }
+.popup .formright .signform [type=email] { border: none; border-bottom: 1px solid #ccc; margin: 0 0 10px 0; border-radius: 0px; padding: 0; font-size: 14px; }
+.popup .formright .signform [type=password] { border: none; border-bottom: 1px solid #ccc; margin: 0 0 10px 0; border-radius: 0px; padding: 0; font-size: 14px; }
+.popup .formright .signform [type=button] { border: none; margin: 0; border-radius: 5px; text-align: center; font-size: 14px; background: #45bace; color: #fff; padding: 7px 30px; }
+.popup .formright .signform  h2 { color: #58595b; font-size: 13px; }
+.popup .formright .signform [type=button],.popup .formright .signform [type=submit] { margin: 0 auto; display: block; border: none; border-radius: 5px; text-align: center; font-size: 14px; background: #45bace; color: #fff; padding: 7px 30px; }
+.popup .download { float: left; padding: 30px 0 0 0; width: 100%; }
+.popup .download p {text-align: center; background: #45bace; color: #fff; padding: 8px 20px 8px 20px; font-family: 'GothamBlackRegular'; width: 100%; float: left;
+line-height: 0; border-radius: 3px; }
+.popup .download p a { color: #fff; font-size: 14px;  }
+.popup a:hover { text-decoration: none; }
+.popup .download p img { width: 30px; height: auto; padding: 0 15px 0 0; }
+.popup .download span { background: #45bace; color: #fff; padding: 5px 20px 5px 22px;  width: 100%; float: left; border-radius: 3px; text-align: center; }
+.popup .download span a { color: #fff; font-family: 'GothamBlackRegular'; font-size: 13px; }
+.popup .download span img { width: 30px; height: auto; padding: 0 15px 0 0; }
+
+ul.contactpop { width: 400px !important; padding: 20px; }
+.productli { width: 100%; float: left !important; }
+.productimage { width: 53%; float: left !important; }
+.productimage img { width: 100%; height: 240px; }
+.contactpopup { width: 350px !important; }
+.contactpopup h2 { font-size: 16px; color: #000; text-align: left; padding-bottom: 15px; font-weight: 700; font-family: 'GothamBlackRegular'; }
+.contactpopup p { font-size: 14px; color: #000; line-height: 5px; font-weight: 200; text-align: left; font-weight: 300; font-family: 'GothamBlackRegular'; }
+.contactpopup img { width: 100%; }
+ul.productpop { width: 150px !important; padding: 0px!important; }
+
+.productpop ul>li { padding: 10px 30px; width: 100%; float: left; margin: 0px; text-align: left; }
+.productpop ul>li a { text-decoration: none; color: #fff; padding: 20px 0; font-size: 17px; font-size: 17px; }
+.productpop ul>li:last-of-type a { border-bottom: 0px solid #58595b; }
+
+section#middleCntr { z-index: 0; width: 100%; position: relative; float: left; height: auto; }
+.bannersliderBox { width: 100%; float: left; position: relative; }
+img.static { position: absolute; right: 0; top: 267px; height: 200px; }
+.bannersliderBox .bannerslider .item { height: 500px; width: 100%; float: left; background-size: 100% 110% !important; }
+.bannersliderBox .bannerslider .item p { text-transform: uppercase; line-height: 40px; font-weight: 700; font-size: 40px; color: #fff; text-align: center; width: 375px; margin: 0 auto; padding: 130px 0px; font-family: 'GothamBlackRegular'; }
+.bannersliderBox .bannerslider .item span { color: #ee7e32; }
+
+.bannersliderBox .bannerslider .owl-dots { position: absolute; bottom: 60px; text-align: center; width: 100%; height: 20px; } 
+.bannersliderBox .bannerslider .owl-dots .owl-dot {border-radius: 50%; width: 20px; display: inline-block; float: none; height: 20px; margin-right: 10px; border: 2px solid #000; }
+.bannersliderBox .bannerslider .owl-dots .owl-dot.active{ background: #fff; border: 2px solid #000; }
+.bannersliderBox .bannerslider .owl-nav { display: block; }
+.bannersliderBox .bannerslider .owl-nav { position: absolute; top: 40%; width: 100%; }
+.bannersliderBox .bannerslider .owl-prev { font-size: 12px; line-height: 38px; text-align: center; float: left; background: #fff !important; width: 35px;
+height: 35px; color: #000; margin-left: 20px; }
+.bannersliderBox .bannerslider .owl-next { font-size: 12px; line-height: 38px; text-align: center; float: right; background: #fff; width: 35px;
+height: 35px; color: #000; margin-right: 20px; }
+
+.aboutBox { width: 100%; float: left; position: relative; }
+.aboutBox h2 { text-align: center; font-size: 25px; font-weight: 900; padding: 25px 0 20px 0; position: relative; font-family: 'museosansrounded300webfont'; }
+.aboutBox h2:before { content: " "; height: 83px; position: absolute; left: 0; float: left; width: 100%; background-image: url(../image/aboutback.png); background-size: cover; background-position: 96%; top: 36px; }
+.aboutBox span { text-align: center; font-size: 14px; float: left; width: 100%; padding: 5px 0 20px 0; font-family: 'museosansrounded300webfont'; font-weight: 500; }
+.aboutBox .about { width: 100%; float: left; padding: 20px 0;  }
+.aboutBox .aboutleft { width: 50%; float: left; }
+.aboutBox .aboutleft img { width: 100%; float: left;  height: 375px;}
+.aboutBox .aboutright { width: 50%; float: left; background: #fce9e1; padding: 70px 125px 80px 70px; height: 375px;}
+
+.visionmissionBox { width: 100%; float: left; position: relative;  padding: 100px 140px; }
+.visionmissionBox .col-md-6 { padding: 0px 30px; }
+.visionmissionBox .text { background: #4dcbd7; color: #fff; padding: 30px 37px; height: 250px; }
+.visionmissionBox .text h3 { font-size: 15px; text-transform: uppercase; font-family: 'museosansrounded300webfont'; font-weight: 700; }
+.visionmissionBox .text p { font-size: 18px; font-family: 'museosansrounded300webfont'; font-weight: 500; }
+.visionmissionBox .text img { width: 100%; }
+.visionmissionBox .text p { font-size: 14px; padding: 20px 30px 20px 0; color: #fff; }
+.visionmissionBox .text ul { padding: 20px 0 20px 0; }
+.visionmissionBox .text ul li { font-size: 14px; }
+
+.indiaBox { float: left; width:100%; background: #f48133; }
+.indiaBox img { width: 80%; height: 225px; margin: 0 auto; }
+.indiaBox h2 { width: 100%; float: left; text-align: center; padding: 20px 0 50px 0; color: #fff; font-size: 30px; font-family: 'GothamBlackRegular'; }
+.indiaBox ul { list-style-type: none; width: 100%; text-align: center; max-width: 720px; margin: 0 auto; padding: 30px 0 30px 0; }
+.indiaBox ul li { float: left; background: #f4a97f; padding: 5px 20px; min-height: 40px; margin: 0 20px; color: #fff; font-family: 'GothamBlackRegular'; }
+.indiaBox ul li a { text-decoration: none; color: #fff; font-family: 'GothamBlackRegular'; cursor: pointer; }
+.indiaBox ul li img { width: 20px; height: auto; margin: 0 5px 0 0; }
+
+.valuesBox { float: left; width: 100%; padding: 100px 0; }
+.valuesBox .image { }
+.valuesBox .image img { width: 100%; float: left; padding: 65px; }
+.valuesBox .text { background: #5ed0db; color: #fff; padding: 30px; height: 170px; margin-bottom: 20px; }
+.valuesBox .text h1 { color: #fff; font-size: 18px; font-family: 'museosansrounded300webfont'; font-weight: 700; }
+.valuesBox .text p { color: #fff; font-size: 12px; line-height: 20px; font-family: 'museosansrounded300webfont'; font-weight: 300; }
+
+.newsBox { float: left; width: 100%; padding: 50px 0; background: #cbcbcb; position: relative; }
+.newsBox .newsslider h2 { background: #afafaf; padding: 5px 10px; color: #fff; font-size: 25px; text-transform: uppercase; width: 200px; margin: 0 auto; margin-bottom: 20px; font-family: 'museosansrounded300webfont'; font-weight: 700; text-align: center; }
+.newsBox .newsslider { overflow: hidden; max-width: 1100px; margin: 0 auto; padding: 0 100px;  }
+.newsBox .owl-nav { display: block; }
+.newsBox .owl-prev { position: absolute; top: 45%; left: -10%; font-size: 12px; line-height: 38px; text-align: center; float: left; background: #fff; width: 35px; height: 35px; color: #000; margin-left: 20px; }
+.newsBox .owl-next {  position: absolute; top: 45%; right: -10%; font-size: 12px; line-height: 38px; text-align: center; float: right; background: #fff; width: 35px;
+height: 35px; color: #000; margin-right: 20px; }
+
+.footer { width: 100%; float: left; position: relative; background: #151515; padding: 30px 0 0 0; }
+.footer .logo img { width: 100%; float: left; padding: 0 0 20px 0; }
+.footer .logo ul  { list-style-type: none; }
+.footer .logo ul li  { float: left; padding-right: 18px;  }
+.footer .logo ul li a  { color: #666; font-size: 14px; }
+.footer .logo ul li a .fa { font-size: 22px; }
+.footer .logo ul li a .fa-facebook { color: #3b5998; }
+.footer .logo ul li a .fa-twitter { color: #55acee; }
+.footer .logo ul li a .fa-linkedin { color: #a7b3c6;}
+.footer .logo ul li a img { padding: 4px 0; margin: 0;  }
+.footer .links h4 { color: #fff; text-transform: uppercase; font-size: 18px; font-family: 'BEBAS'; }
+.footer .links ul { list-style-type: none;  }
+.footer .links ul li { font-size: 13px; text-transform: uppercase; color: #666; font-weight: 800; line-height: 20px; font-family: 'BebasNeueRegular_1'; }
+.footer .links ul li a { font-size: 13px; text-transform: uppercase; color: #666; font-weight: 800; line-height: 20px; font-family: 'BEBAS'; text-decoration: none; }
+.footer .links ul li span { float: right; font-family: 'BEBAS'; color: #666; font-weight: 800;}
+.footer .tollfreeno { width: 100%; float: left; }
+.footer .tollfreeno p { color: #fff; font-size: 18px; font-weight: 800;font-family: 'BEBAS'; margin: 0; }
+.footer .tollfreeno p span { }
+.footerbottom { background: #323232; height: 30px; float: left; width: 100%; }
+.footerbottom p { color: #fff; text-align: center; font-size: 15px; margin: 0; font-family: 'BebasNeueRegular_1'; }
+
+/* responsible nutrition page */
+
+.responsibleBox { float: left; width:100%; background-image:url(../image/responsible-nutrition.png); background-position: 100%; background-size: cover; height: 300px; }
+.responsibleBox h1 { font-weight: bold; color: #30b9cc; text-align: center; font-size: 50px;  text-transform: uppercase; padding: 85px 0; font-family: 'GothamBlackRegular'; }
+
+.beliefBox { width: 100%; float: left; position: relative; }
+.beliefBox h2 { text-align: center; font-size: 25px; padding: 50px 0 20px 0; position: relative; font-family: 'museosansrounded300webfont'; font-weight: 900; }
+.beliefBox h2:before { content: " "; height: 83px; position: absolute; left: 0; float: left; width: 100%; background-image: url(../image/aboutback.png); background-size: cover; background-position: 96%; top: 60px; }
+
+.belieffactsBox { width: 100%; float: left; position: relative; padding: 70px 0; }
+.belieffactsBox .text { padding: 50px 0; }
+.belieffactsBox .text p { color: #58595b; font-size: 14px; line-height: 20px; font-family: 'GothamBlackRegular'; font-weight: bold; }
+.belieffactsBox .text p span { color: #30b9cc; }
+.belieffactsBox .image { padding: 0px 100px; }
+.belieffactsBox .image img { width: 100%; }
+
+.companyBox { float: left; width:100%; background: #f08b46; }
+.companyBox h2 { width: 100%; float: left; text-align: center; padding: 30px 0px; color: #fff; font-size: 30px;  font-family: 'museosansrounded300webfont'; font-weight: 900; }
+
+.stepBox { width: 100%; float: left; position: relative; padding: 50px 0; }
+.stepBox p { color: #58595b; font-size: 14px; line-height: 25px; text-align: center; max-width: 800px; margin: 0 auto; font-family: 'GothamBlackRegular'; font-weight: 300; }
+
+.factsBox { width: 100%; float:left; padding: 50px 0; }
+.factsBox ul  { float: left; width: 100%; list-style-type: none; }
+.factsBox ul li { color: #58595b; border: 2px solid #919292; padding: 20px 20px; width: 18%; float: left; border-radius: 5px; margin-left: 2%;
+text-align: center; font-size: 13px; height: 100px; font-family: 'GothamBlackRegular'; }
+.videoBox { width: 100%; float:left; padding: 50px 0; }
+
+
+/*	partner page */
+.productsBox { float: left; width:100%; background-image:url(../image/products.png); background-size: 100% 100%;background-position: 100%; background-size: cover; height: 300px; }
+.productsBox h1 { font-weight: bold; color: #8d8d8f; text-align: center; font-size: 30px;  text-transform: uppercase; padding: 10px 0; font-family: 'GothamBlackRegular'; }
+.productsBox h1 span { color: #ee7e32; }
+.partnersBox { width: 100%; float: left; position: relative; }
+.partnersBox h2 { text-align: center; font-size: 25px; font-weight: bold; padding: 50px 0 20px 0; position: relative; font-family: 'museosansrounded300webfont'; font-weight: 900; }
+.partnersBox h2:before { content: " "; height: 83px; position: absolute; left: 0; float: left; width: 100%; background-image: url(../image/aboutback.png); background-size: cover; background-position: 96%; top: 60px; }
+
+.partnersfactsBox { width: 100%; float: left; position: relative; padding: 100px 0px; }
+.partnersfactsBox .text h3 { color: #ee7e32; padding: 0; font-size: 30px; font-family: 'museosansrounded300webfont'; font-weight: 500; }
+.partnersfactsBox .row { margin-bottom: 30px; }
+.partnersfactsBox .text { padding: 0; }
+.partnersfactsBox .text h2 { color: #58595b; font-size: 25px; padding: 0 0 10px 0; margin: 0; font-family: 'museosansrounded300webfont'; font-weight: 700; }
+.partnersfactsBox .text p { color: #58595b; font-size: 14px; line-height: 20px; font-family: 'museosansrounded300webfont'; font-weight: 300; }
+.partnersfactsBox .text p span { color: #30b9cc; }
+.partnersfactsBox .image { padding: 0px 50px; }
+.partnersfactsBox .image img { width: 100%; border: 1px solid #8a8a8a; padding: 30px; }
+
+.productsliderBox { width: 100%; float: left; position: relative; }
+.productsliderBox .productslider .item { height: 500px; width: 100%; float: left; background-size: 100% 110% !important; }
+.productsliderBox .productslider .owl-dots { position: absolute; bottom: 60px; text-align: center; width: 100%; height: 20px; display: none; } 
+.productsliderBox .productslider .owl-dots .owl-dot { border-radius: 50%; width: 20px; display: inline-block; float: none; height: 20px; margin-right: 10px; border: 2px solid #000; }
+.productsliderBox .productslider .owl-dots .owl-dot.active{ background: #fff; border: 2px solid #000; }
+.productsliderBox .productslider .owl-nav { display: block; }
+.productsliderBox .productslider .owl-nav { position: absolute; top: 40%; width: 100%; }
+.productsliderBox .productslider .owl-prev { font-size: 30px; line-height: 38px; text-align: center; float: left;  width: 35px; height: 35px; color: #cfcece; margin-left: 20px; }
+.productsliderBox .productslider .owl-next { font-size: 30px; line-height: 38px; text-align: center; float: right; width: 35px; height: 35px; color: #cfcece; margin-right: 20px; }
+
+.productgallery { width: 100%; float: left; position: relative; padding: 50px 0px; }
+.productgallery img { width: 100%; height: auto; margin-bottom: 30px; }
+.productgallery .imagetop { width: 100%; float: left; }
+.productgallery .imagebelow { width: 100%; float: left; }
+.imagetop img { height: 485px; }
+
+.productbannerbottom { float: left; width: 100%; background-image: url(../image/bannerbottomimage.jpg); background-size: cover; background-position: 96%; top: 60px; min-height: 300px; }
+
+.header1 { width: 100%; float: left; background: #2fb9cc; }
+.header1 .logo { width: 200px; height: auto; padding: 10px 0; margin: 0 auto; }
+.header1 .logo img { width: 100%; height: auto; }
+
+.loginpage { width: 100%; float: left; background-image: url(../image/login-background.png); background-size: cover; background-position: 100%; top: 0px; min-height: 600px; position: relative; }
+.loginpage .logininner { max-width: 600px; margin: 0 auto; background: hsla(189, 60%, 59%, 0.7); margin-top: 5px; border-radius: 3px; padding: 10px 0 10px 0; position: relative; }
+.loginpage .logininner .owns { position: absolute; left: -280px; top: 50px; }
+.loginpage .logininner .rrr { position: absolute; left: -265px; top: 155px; width: 170px; }
+.loginpage .logininner p.static { position: absolute; right: -130px; top: 55%; color: #b0dee5; font-size: 65px; z-index: 13; transform: rotate(-90deg); font-style: italic; }
+.loginpage .logininner p.static em  { font-size: 10px;}
+.loginpage .logininner:after { content: " "; height: 60px; position: absolute; left: 0; float: left; width: 100%;  background-image: url(../image/longarrow.png); background-size: cover; background-position: 60% 80%; bottom: 45px; } 
+.loginpage .logininner .form-control { background: #dbeef1; margin: 0 0 10px 0; padding: 5px 5px 5px 50px;}
+.loginpage .logininner form  { width: 300px; margin: 0 auto; text-align: center; }
+.loginpage .logininner form img { padding: 10px 0; max-width: 100px; }
+.loginpage .logininner form h3 { font-size: 18px; color: #fff;  font-family: 'museosansrounded300webfont'; font-weight: 500; }
+.loginpage .logininner form .username { position: relative; }
+.loginpage .logininner form .username img { position: absolute; top: -4px; left: 10px; width: 20px; }
+.loginpage .logininner form .password { position: relative; }
+.loginpage .logininner form .password img { position: absolute; top: -4px; left: 10px; width: 20px; }
+
+.loginpage .logininner .rememberforget { }
+.loginpage .logininner .rememberforget .col-md-6 { padding: 0; }
+.loginpage .logininner .rememberforget p { float: left; padding: 5px 5px; color: #fff; }
+.loginpage .logininner .rememberforget p img {width: 20px; margin-right: 5px; }
+.loginpage .logininner .login { }
+.loginpage .logininner .login h2 { font-size: 25px; text-transform: uppercase; font-weight: 500; background: #ee7e32; width: 100%; padding: 10px 5px; margin: 0; float: left; color: #fff; font-family: 'museosansrounded300webfont'; }
+.loginpage .logininner .copyright { color: #fff; text-align: right; position: relative; font-size: 10px; line-height: 15px; padding: 200px 125px 40px 0; }
+
+/*  compensation plan */
+
+.compensationBox { width: 100%; float: left; background-color: #19becf; }
+.compensationBox .text { padding: 100px 0; width: 500px; margin: 0 auto; }
+.compensationBox .text h1 { font-size: 64px; color: #5bc7d5; text-transform: uppercase; text-shadow: 1px 1px #807c7c; font-family: 'museosansrounded300webfont'; font-weight: bold; text-align: justify; margin: 0; padding: 0; }
+.compensationBox .text h2 { font-size: 76px; color: #5bc7d5; text-transform: uppercase; text-shadow: 1px 1px #807c7c; font-family: 'museosansrounded300webfont'; font-weight: bold; text-align: justify; margin: 0; padding: 0; }
+.compensationBox .text p { text-align: center; width: 100%; float: left; text-transform: uppercase; color: #5bc7d5; font-weight: bold;  text-shadow: 1px 1px #807c7c; font-family: 'museosansrounded300webfont'; position: relative; }
+.compensationBox .text p:before { content: " "; width: 225px; left: 0; top: 13px; background: #5bc7d5; height: 2px; position: absolute; }
+.compensationBox .text p:after { content: " "; width: 225px; right: 0; top: 13px; background: #5bc7d5; height: 2px; position: absolute; }
+
+.compensationlogoBox { float: left; width:100%; padding: 20px 0;  text-align: center;  }
+.compensationlogoBox img.logo { width: 200px; margin: 0 auto; display: block;  }
+.compensationlogoBox img.bottomicon { width: 100%; }
+
+.compensationtextBox { padding: 50px 0; width: 100%; float: left; } 
+.compensationtextBox p { color: #000; font-size: 40px; text-align: center; line-height: 50px; font-weight: bold; }
+
+.combopack { width: 100%; float: left; padding: 70px 0; } 
+.combopack .topimage h3 { text-align: center;  font-family: 'museosansrounded300webfont'; color: #cccccb; font-weight: bold; width: 300px; margin: 0 auto; }
+.combopack .topimage h3 span.combo { width: 174px; text-align: right; float: left; font-size: 45px; font-weight: bold; line-height: 45px; font-family: 'museosansrounded300webfont'; line-height: 40px; padding-top: 20px; }
+.combopack .topimage h3 span.a { color: #fff; font-family: 'museosansrounded300webfont'; background: #cccccb; border-radius: 50%; width: 120px; height: 120px; padding: 15px 15px; text-align: center; margin-left: 0px; float: right; font-size: 80px; line-height: 85px; } 
+
+.combopack .bottomimage { width: 100%; float: left; padding: 50px 0; text-align: center; }
+.combopack .bottomimage img  { width: 800px; margin: 0 auto; text-align: center; }
+
+.combopack .productdetails { width: 100%; float: left; }
+.combopack .productdetails .productlist { padding: 65px 25px; }
+.combopack .productdetails .productlist .item { padding: 0 0 30px 0; }
+.combopack .productdetails .productlist .item h4 { margin: 0; font-size: 25px; color: #f48131; font-family: 'museosansrounded300webfont'; }
+.combopack .productdetails .productlist .item p { font-size: 15px; text-align: left; margin: 0; padding: 0; line-height: 18px; text-transform: uppercase;  color: #17becf; }
+
+.combopack .productlistleft { background-image: url(../image/quote.png); background-size: cover; background-position:100% 100%; min-height:347px; }
+.combopack .productlistleft .list ul { padding: 75px 20px; }
+.combopack .productlistleft .list ul li { color: #fff; list-style-type: none; font-weight: bold; font-size: 25px; border-bottom: 1px solid #fff; }
+.combopack .productlistleft .price { padding: 90px 40px; }
+.combopack .productlistleft .price p { text-align: left; float: left; line-height: 33px; font-size: 30px; color: #fff; }
+.combopack .productlistleft .price p span { font-weight: bold; font-size: 40px; }
+
+.productprice { width: 100%; float: left; }
+.productprice .product { width: 100%; float: left; padding: 20px 50px;}
+.productprice .product ul.heading li { width: 19%; float: left; color: #fff; list-style-type: none; background: #f78f4a; margin-left: .5%;
+text-align: center; font-weight: bold; height: 50px; line-height: 13px; text-transform: uppercase; font-size: 13px; padding-top: 10px; font-family: 'museosansrounded300webfont'; border-radius: 10px 10px 0 0; }
+.productprice .product ul.heading li:nth-child(1) { background: #19becf; line-height: 35px; }
+.productprice .product ul.heading li:nth-child(2) { background: #f48131; }
+.productprice .product ul.heading li:nth-child(3) { background: #f78f4a; }
+.productprice .product ul.heading li:nth-child(4) { background: #f79654; }
+.productprice .product ul.heading li:nth-child(5) { background: #faae7a; }
+
+.productprice .product ul.headingbelow { border: 1px solid #ccc; width: 100%; float: left; margin: 0; border-bottom: 0; }
+.productprice .product ul.headingbelow li { width: 19%; float: left; color: #f48131; list-style-type: none; margin-left: .5%;
+text-align: center;font-weight: bold; height: 50px; line-height: 25px; text-transform: uppercase; font-size: 13px; padding-top: 10px;font-family: 'museosansrounded300webfont'; }
+.productprice .product ul.headingbelow li:nth-child(1) {color: #939598;text-align:left;padding:0 0 0 30px; line-height: 45px; font-weight: bold; }
+.productprice .product ul.headinglast li:nth-child(1) {color: #17becf; text-align: left; padding: 0 0 0 30px;line-height: 45px; font-weight: bold;}
+.productprice .product ul.headinglast { border: 1px solid #ccc; width: 100%; float: left; margin: 0; }
+.productprice .product ul.headinglast li { width: 19%; float: left; color: #17becf; list-style-type: none; margin-left: .5%;
+text-align: center; font-weight: bold; height: 50px; line-height: 25px; text-transform: uppercase; font-size: 13px; padding-top: 10px; font-family: 'museosansrounded300webfont';  }
+
+.pricetab { width: 100%; float: left; }
+.pricetab .priceleft { }
+.pricetab .priceleft .pricetop .row { padding: 100px 50px; }
+.pricetab .priceleft .pricetop { border-bottom: 1px solid #ccc; }
+.pricetab .priceleft .pricetop .retail p { color: #bbbfbf; font-size: 60px; text-align: left; line-height: 50px; }
+.pricetab .priceleft .pricetop .twenty p { color: #f48131; font-size: 25px; text-align: left; }
+.pricetab .priceleft .pricetop .twenty p span { font-size: 80px; line-height: 80px; }
+.pricetab .priceleft .pricebottom { padding: 50px 100px; }
+.pricetab .priceleft .pricebottom h2 { color: #bbbfbf; font-size: 60px; text-align: left; font-family: 'museosansrounded300webfont';line-height: 55px; font-weight: bold; padding: 20px 0; }
+.pricetab .priceleft .pricebottom p { text-align: left; font-size: 30px; letter-spacing: 1px; color: #bbbfbf; padding: 20px 0; }
+.pricetab .priceleft .pricebottom h3 { color: #f48131; font-size: 40px; text-align: left; font-weight: bold; line-height: 20px; padding: 10px 0; }
+.pricetab .priceleft .pricebottom h3 span { font-size: 70px; }
+.pricetab .priceleft .pricebottom h4 { text-align: left; font-size: 30px; letter-spacing: 1px; color: #bbb; padding: 20px 0; }
+
+.pricetab .priceright { border-left: 1px solid #ccc; padding-left: 50px; }
+.pricetab .priceright .item { background-image: url(../image/quote.png); background-size: cover; background-position: 100% 0px;min-height: 280px; }
+.pricetab .priceright .item .list ul { padding: 100px 45px 0 45px; }
+.pricetab .priceright .item .list ul li { color: #fff; list-style-type: none; font-weight: bold; font-size: 40px; line-height: 40px; font-family: 'museosansrounded300webfont'; }
+.pricetab .priceright .item .price { padding: 90px 40px 0px 40px; }
+.pricetab .priceright .item .price p { text-align: left; float: left; line-height: 33px; font-size: 30px; color: #ffff; font-weight: 100; }
+.pricetab .priceright .item .price p span { font-weight: bold; font-size: 40px; }
+
+.itseasy { width: 100%; float: left; background-image: url(../image/itseasy.jpg); background-size: cover; background-position: 100% 100%; min-height: 1000px; }
+.businessprofit { width: 100%; float: left; background-image: url(../image/business-profit.jpg); background-size: cover; background-position: 100% 100%; min-height: 1100px; }
+.threesteps { width: 100%; float: left; padding: 70px 0; }
+.threesteps .stepone  { width: 100%; float: left; background-image: url(../image/step1.png); background-repeat: no-repeat; background-size: contain; background-position: right; position: relative; height: 300px; }
+.threesteps .stepone h2 { font-size: 30px; position: absolute; right: 165px; color: #fff; top: 100px; font-family: 'museosansrounded300webfont';     text-transform: uppercase; line-height: 40px; }
+.threesteps .stepone p { font-size: 15px; position: absolute; right: 120px;  color: #000; top: 160px; line-height: 20px; text-align: left; font-family: 'museosansrounded300webfont'; }
+.threesteps .steptwo { width: 100%; float: left; background-image: url(../image/step2.png); background-repeat: no-repeat; background-size: contain; background-position: left; position: relative; height: 300px; }
+.threesteps .steptwo h2 { font-size: 30px; position: absolute; left: 160px; color: #fff; top: 100px; font-family: 'museosansrounded300webfont'; text-transform: uppercase; line-height: 40px;}
+.threesteps .steptwo p { font-size: 15px; position: absolute; left: 160px; color: #000; top: 150px; line-height: 20px; text-align: left; font-family: 'museosansrounded300webfont'; }
+.threesteps .stepthree { width: 100%; float: left; background-image: url(../image/step3.png); background-repeat: no-repeat; background-size: contain; background-position: center; position: relative; height: 300px; }
+.threesteps .stepthree h2 { font-size: 24px;position: absolute;left: 499px; color:#fff; top: 100px; text-transform: uppercase; line-height: 37px; font-family: 'museosansrounded300webfont'; text-transform: uppercase; line-height: 40px;}
+.threesteps .stepthree p { font-size: 15px; position: absolute; left: 480px; color: #000; top: 150px; line-height: 20px; text-align: left; font-family: 'museosansrounded300webfont'; }
+
+.planconsists { width: 100%; float: left; background: #19becf; padding: 70px 0; }
+.planconsists h2 { font-size: 90px; text-transform: uppercase; color: #4ec4d1; font-family: 'museosansrounded300webfont'; text-align: left;
+font-weight: bold; line-height: 80px; padding: 0px 100px; }
+.planconsists .row { padding: 0px 100px;  }
+.planconsists img { padding: 50px 0 0 0; width: 100%; float: left; }
+.planconsists p { font-size: 90px; text-transform: uppercase; color: #4ec4d1; font-family: 'museosansrounded300webfont'; text-align: left;
+font-weight: bold; line-height: 80px; padding: 250px 0 0 0; }
+
+.retailprofit { width: 100%; float: left; padding: 70px 0; }
+.retailprofit h2 { width: 100%; float: left; font-family: 'museosansrounded300webfont'; font-size: 35px; font-weight: bold; }
+.retailprofit h2 img { width: 150px; }
+.retailprofit p { color: #17becf; font-size: 30px; line-height: 40px; padding: 30px 50px; }
+
+.retailtabs { width: 100%; float: left; padding: 70px 0; }
+.retailtabs #accordion { width: 100%;}
+.retailtabs .card { border: none; }
+.retailtabs .card-header { background-size: cover; height: 100px; }
+.retailtabs .card-header a { font-size: 20px; color: #fff; text-transform: uppercase; font-weight: bold; padding: 25px 0 0 180px; width: 100%; float: left; }
+.retailtabs .card-body { width: 400px; margin: 0 auto; background: #46c3ce; padding: 20px; border-radius: 0 0 10px 10px; position: relative; }
+.retailtabs .card-body:before { content: " "; position: absolute; top: -19px; left: 0; width: 400px; height: 19px; background-color: #46c3ce;}
+.retailtabs .card-body ul li  { color: #fff; font-size: 20px; list-style-type: none; line-height: 30px;} 
+
+.retailtabs .card1 { background: #fff; background-image: url(../image/bar1.png); background-repeat: no-repeat; background-size: cover; background-position: top; position: relative; height: 100px; float: left; width: 100%; border: none; }
+.retailtabs .card2 { background: #fff; background-image: url(../image/bar2.png); background-repeat: no-repeat; background-size: cover; background-position: top; position: relative; height: 100px; float: left; width: 100%; border: none; }
+.retailtabs .card3 { background: #fff; background-image: url(../image/bar3.png); background-repeat: no-repeat; background-size: cover; background-position: top; position: relative; height: 100px; float: left; width: 100%; border: none; }
+.retailtabs .card4 { background: #fff; background-image: url(../image/bar4.png); background-repeat: no-repeat; background-size: cover; background-position: top; position: relative; height: 100px; float: left; width: 100%; border: none; }
+.retailtabs .card5 { background: #fff; background-image: url(../image/bar5.png); background-repeat: no-repeat; background-size: cover; background-position: top; position: relative; height: 100px; float: left; width: 100%; border: none; }
+.retailtabs .card6 { background: #fff; background-image: url(../image/bar6.png); background-repeat: no-repeat; background-size: cover; background-position: top; position: relative; height: 100px; float: left; width: 100%; border: none; }
+.retailtabs .card7 { background: #fff; background-image: url(../image/bar7.png); background-repeat: no-repeat; background-size: cover; background-position: top; position: relative; height: 100px; float: left; width: 100%; border: none; }
+.retailtabs .card8 { background: #fff; background-image: url(../image/bar8.png); background-repeat: no-repeat; background-size: cover; background-position: top; position: relative; height: 100px; float: left; width: 100%; border: none; }
+
+
+.retailprofitdown { width: 100%; float: left; padding: 20px 10px; position: relative; }
+.retailprofitdown fieldset { border: 1px solid #ccc; padding: 25px 50px 75px 50px; }
+.retailprofitdown legend { font-family: 'museosansrounded300webfont'; display: inherit; width: auto; padding: 0px 15px; font-weight: bold; }
+.retailprofitdown p { font-size: 30px; font-weight: bold; padding: 0px 50px; line-height: 35px; color: #606161; }
+.retailprofitdown img { position: absolute; width: 65%; height: 100px; top: 230px; left: 250px; }
+
+.treebox { width: 100%; float: left; padding: 40px 0; position: relative; }
+.treebox h2 { color: #f48131; font-size: 30px; line-height: 40px; padding: 30px 50px; text-transform: uppercase; font-family: 'museosansrounded300webfont'; font-weight: bold; }
+.treebox h3 { color: #17becf; text-align: center; text-transform: uppercase; font-family: 'museosansrounded300webfont'; font-weight: bold;   font-size: 25px; padding: 0 150px; }
+.treebox p { position: absolute; bottom: 35px; width: 300px; left: 39%; text-align: center; font-size: 17px; line-height: 22px; color: #a09f9f; }
+.treebox img { width: 100%; float:left; } 
+
+
+.treebelow { width: 100%; float: left; }
+.treebelow .member  { width: 100%; float: left; margin: 0; }
+.treebelow .member li { width: 13.8%; float: left; border: 1px solid #ccc; text-align: center;  font-size: 16px; list-style-type: none; margin: 0.1%; padding: 15px 0; color: #f48131; font-family: 'museosansrounded300webfont'; font-weight: bold; }
+.treebelow .member li.first { line-height: 15px; text-transform: uppercase; font-size: 14px; text-align: left;  padding: 15px 10px; height: 56px;
+color: #fff; background: #19becf; position: relative; }
+.treebelow .member li.first:after { content: ''; position: absolute; right: -28px; top: 0px;  width: 0; height: 0; border-style: solid;  
+border-width: 28px 0 28px 28px; border-color: transparent transparent transparent #19becf; }
+
+.generationbonus { width: 100%; float: left; padding: 40px 0; position: relative; }
+.generationbonus h2 { width: 100%; float: left; font-family: 'museosansrounded300webfont'; font-size: 35px; font-weight: bold; text-transform: uppercase; }
+.generationbonus h2 img { width: 150px; }
+.generationbonus img.chain { width: 100%; float: left; height: 480px; padding: 40px 0; }
+.generationbonus p { width: 100%; float: left; font-weight: bold; padding: 42px 30px; }
+.generationbonus span.you { line-height: 10px; padding-top: 0px; float: left; padding: 0 20px 0 0; font-size: 70px; }
+.generationbonus span.ten { font-size: 285px; color: #d2d2d2; line-height: 170px; float: left; }
+.generationbonus span.percent { font-size: 110px; color: #d2d2d2; float: left; line-height: 280px; }
+.generationbonus span.product { float: left; line-height: 35px; padding: 115px 0 0 20px; font-size: 35px; }
+
+.orbitalBox { width: 100%; float: left; padding: 40px 0; position: relative; }
+.orbitalBox h2 { width: 100%; float: left; padding: 50px 0; font-family: 'museosansrounded300webfont'; font-size: 35px; font-weight: bold; text-transform: uppercase; }
+.orbitalBox h2 img { width: 150px; }
+.orbitalBox .image img { width: 100%; }
+.orbitalBox .tableleft { text-align: center; }
+.orbitalBox .tableleft table { width: 100%; float: left; }
+.orbitalBox .tableleft thead { background: #19becf; color: #fff; font-family: 'museosansrounded300webfont'; }
+.orbitalBox .tableleft .table td { font-size: 17px; padding: 10px 14px;  font-family: 'museosansrounded300webfont'; }
+
+.orbitalmachine { width: 100%; float: left; padding: 70px 0; }
+.orbitalmachine .heading { text-align: center; width: 100%;  }
+.orbitalmachine .heading h2 { font-size: 40px; text-align: center; padding: 0 0 24px 0; margin: 0; line-height: 0; font-family: 'museosansrounded300webfont'; font-weight: bold;} 
+.orbitalmachine .heading h3 { color: #19becf; font-family: 'museosansrounded300webfont'; font-weight: bold;}
+.orbitalmachine .product { width: 100%; float: left; padding: 20px 50px;}
+.orbitalmachine .product ul.heading li { width: 10%; float: left; color: #fff; list-style-type: none; background: #f47b3c; text-align: center; font-weight: bold; line-height: 15px; text-transform: uppercase; font-size: 14px; padding: 15px 0; font-family: 'museosansrounded300webfont'; border-radius: 10px 10px 0 0; height: 50px; width: 8%; margin: 0 1%; }
+.orbitalmachine .product ul.heading li:nth-child(1) {  background: #19becf; }
+.orbitalmachine .product ul.headingbelow { width: 100%; float: left; margin: 0; padding: 0; border-bottom: 0; }
+.orbitalmachine .product ul.headingbelow li { width: 10%; float: left; font-size: 13px; padding: 15px 0px; text-align: center; font-weight: bold; height: 50px; line-height: 15px; color: #909091; list-style-type: none; text-transform: uppercase; font-family: 'museosansrounded300webfont'; border: 1px solid #ccc; }
+
+.orbitalimagebelow { width: 100%; float: left; padding: 20px 0 50px 0; }
+.orbitalimagebelow img { width: 100%; height: 450px; }
+
+.referralrewardBox { width: 100%; float: left; }
+.referralrewardBox h2 { width: 100%;float: left; font-family: 'museosansrounded300webfont'; color: #f48131; font-size: 35px; font-weight: bold; text-transform: uppercase; }
+.referralrewardBox h2 img { width: 150px; }
+.referralrewardBox .image img { width: 100%; height: 300px; }
+.referralrewardBox p { width: 100%; float: left; font-weight: bold; padding: 100px 20px; }
+.referralrewardBox span.you { line-height: 30px; padding-top: 0px; float: left; padding: 0 40px 0 0; font-size: 40px; color: #606161; }
+.referralrewardBox span.ten { font-size: 300px; color: #d2d2d2; line-height: 230px; float: left; }
+.referralrewardBox span.percent { font-size: 150px; color: #d2d2d2; float: left; line-height: 330px; }
+.referralrewardBox span.product { float: left; padding: 50px 0 0 30px; line-height: 33px; font-size: 30px; color: #606161; }
+
+.diamondBox { width: 100%; float: left; }
+.diamondBox h2 { width: 100%;float: left; font-family: 'museosansrounded300webfont'; color: #f48131; font-size: 35px; font-weight: bold; text-transform: uppercase; }
+.diamondBox h2 img { width: 150px; }
+.diamondBox .diamond .image img { width: 100%; float: left; }
+.diamondBox .text p { width: 100%; float: left; font-weight: bold; padding: 20px 20px; }
+.diamondBox .text span.you { line-height: 30px; padding-top: 0px; float: left; padding: 0 0 30px 0; font-size: 18px; color: #606161; }
+.diamondBox .text span.ten { font-size: 300px; color: #d2d2d2; line-height: 230px; float: left; }
+.diamondBox .text span.percent { font-size: 150px; color: #d2d2d2; float: left; line-height: 330px; line-height: 270px; }
+.diamondBox .text span.product { line-height: 30px; padding-top: 0px; float: left; padding: 0 0 30px 0; font-size: 18px; color: #606161; }
+
+.leadershipbonusBox { width: 100%; float: left; padding: 70px 0; }
+.leadershipbonusBox h2 { width: 100%;float: left; font-family: 'museosansrounded300webfont'; color: #f48131; font-size: 35px; font-weight: bold; text-transform: uppercase; }
+.leadershipbonusBox h2 img { width: 150px; }
+.leadershipbonusBox .diamond .image img { width: 100%; float: left; }
+.leadershipbonusBox .points li { width: 49%; float: left; list-style-type: none; font-family: 'museosansrounded300webfont'; font-weight: bold; font-size: 20px; padding: 10px 30px; margin: 0 0 0 10px; }
+.leadershipbonusBox .points li span { color: #fff; background: #606161; padding: 2px 5px; border-radius: 5px; margin-left: 5px; }
+
+.leaderbonusBox { width: 100%; float: left; padding: 20px 50px;}
+.leaderbonusBox  ul.heading { width: 100%; float: left; margin: 0; }
+.leaderbonusBox  ul.heading li { width: 12%; float: left; color: #fff; list-style-type: none; background: #f47b3c; text-align: center; font-weight: bold; line-height: 15px; text-transform: uppercase; font-size: 14px; padding: 15px 0; font-family: 'museosansrounded300webfont'; border-radius: 10px 10px 0 0; height: 50px; margin: 0 1%; }
+.leaderbonusBox ul.heading li:nth-child(1) {  background: #19becf; }
+.leaderbonusBox ul.headingbelow { width: 100%; float: left; margin: 0; padding: 0; border-bottom: 0; border: 1px solid #ccc; }
+.leaderbonusBox ul.headingbelow li { width: 14.2%; float: left; font-size: 13px; padding: 15px 0px; text-align: center; font-weight: bold; height: 50px; line-height: 15px; color: #909091; list-style-type: none; text-transform: uppercase; font-family: 'museosansrounded300webfont'; }
+
+
+.royaltyBox { width: 100%;float: left; padding: 50px 0; position: relative;  }
+.royaltyBox h2 { width: 100%;float: left; font-family: 'museosansrounded300webfont'; color: #f48131; font-size: 35px; font-weight: bold; text-transform: uppercase; }
+.royaltyBox h2 img { width: 150px; }
+.royaltyBox p { color: #f48131; font-size: 18px; font-weight: bold; text-transform: uppercase; position: absolute; top: 115px; padding: 0 0 0 150px; left: 105px; }
+
+.royaltytab { width: 100%; float: left; padding: 70px 0; }
+.royaltytab .product { width: 100%; float: left; padding: 20px 50px;}
+.royaltytab .product ul.heading li { width: 22%; float: left; color: #fff; list-style-type: none; background: #19becf; margin-left: .5%; text-align: center; font-weight: bold; line-height: 30px; text-transform: uppercase; font-size: 20px; padding-top: 10px; font-family: 'museosansrounded300webfont'; border-radius: 10px 10px 0 0; }
+.royaltytab .product ul.heading li:nth-child(1) { width: 32%; color: #fff; text-align:center;line-height: 30px; font-weight: bold; font-size: 20px; }
+.royaltytab .product ul.headingbelow { width: 100%; float: left; margin: 0 0 5px 0px; padding: 0; border-bottom: 0; }
+.royaltytab .product ul.headingbelow li { width: 22%; float: left; margin-left: .5%; font-size: 13px; padding: 60px 45px; text-align: center; font-weight: bold; min-height: 150px; height: 150px; line-height: 15px; color: #909091; list-style-type: none; text-transform: uppercase; font-family: 'museosansrounded300webfont'; border: 1px solid #ccc; }
+.royaltytab .product ul.headingbelow li span { font-size: 50px; }
+.royaltytab .product ul.headingbelow li:nth-child(1) { width: 32%; color: #939598;text-align:left;padding:0; line-height: 45px; font-weight: bold; background-size:cover;background-position:center;height:150px;}
+.royaltytab .product ul.headingbelow li:nth-child(1) p { font-size: 15px; text-align: center; padding: 115px 0 0 0; font-weight: bold; }
+.royaltytab .product ul.headingbelow li img { width: 100%; float: left; }
+.royaltytab .product ul.headingbelow { width: 100%; float: left; margin: 0 0 5px 0px; padding: 0; border-bottom: 0; }
+.royaltytab .product ul.headingbelow li { width: 22%; float: left; margin-left: .5%; font-size: 13px; padding: 60px 45px; text-align: center; font-weight: bold; min-height: 150px; height: 150px; line-height: 15px; color: #909091; list-style-type: none; text-transform: uppercase; font-family: 'museosansrounded300webfont'; border: 1px solid #ccc; }
+.royaltytab .product ul.headingbelow li span { font-size: 50px; }
+.royaltytab .product ul.headingbelow li:nth-child(1) { width: 32%; color: #939598;text-align:left;padding:0; line-height: 45px; font-weight: bold; background-size:cover;background-position:center;height:150px;}
+.royaltytab .product ul.headingbelow li:nth-child(1) p { font-size: 15px; text-align: center; padding: 115px 0 0 0; font-weight: bold; }
+.royaltytab .product ul.headingbelow li img { width: 100%; float: left; }
+
+
+.eliteBox{width: 100%;float: left;background-image:url(../image/elite.png);background-size:cover;background-position:100% 100%;min-height:1000px; padding: 40px 0; position: relative; }
+.eliteBox h2 { width: 100%;float: left; font-family: 'museosansrounded300webfont'; color: #fff; font-size: 35px; font-weight: bold; text-transform: uppercase; }
+.eliteBox h2 img { width: 150px; }
+.eliteBox h3 { font-family: 'museosansrounded300webfont'; color: #4ec4d1; font-size: 230px; font-weight: bold; float: left; text-align: right; width: 100%; line-height: 90px; padding: 0 100px 0 0; }
+.eliteBox h3 span { font-size: 50px; font-size: 130px; }
+
+
+
+.ninesteps{ width: 100%; float: left; background-image:url(../image/nine-steps.png); min-height:1100px; padding: 70px 0; position: relative;     background-repeat: no-repeat; background-position: center; background-size: cover; }
+.ninesteps p { color: #4ec4d1; font-size: 50px; text-transform: uppercase; line-height: 50px; font-weight: bold; } 
+
+.sixsteps{width: 100%;float: left;background-image:url(../image/six-steps.png);min-height:1100px; padding: 70px 0; position: relative;     background-repeat: no-repeat; background-position: center; background-size: cover; }
+.sixsteps p { color: #4ec4d1; font-size: 50px; text-transform: uppercase; line-height: 50px; font-weight: bold; width: 100%; }
+.sixsteps ul { float: right; padding: 550px 0 0 60px; width: 372px; display: inline-block; }
+.sixsteps ul li { list-style-type: none; color: #606161; font-size: 20px; font-family: 'museosansrounded300webfont'; line-height: 43px; font-weight: bold; }
+.sixsteps ul li span { color: #fff; background: #f48131; padding: 2px 5px; font-size: 15px; }
+
+.collagenintro { width: 100%; float: left; background: #eafcff; }
+.collagenintro .text { font-family: 'HelveticaInserat-Roman'; padding: 100px 0; }
+.collagenintro .text h2 { font-family: 'HelveticaInserat-Roman'; color: #231f20;  } 
+.collagenintro .text span { font-family: 'HelveticaNeueLTCom-Cn'; color: #231f20; font-weight: 300; position: relative; padding: 0 0 50px 0; font-size: 21px;
+    float: left; width: 100%;  }
+
+.collagenintro .text span:after { content: " "; width: 100px; height: 5px; background-color: #30b9cd; top: 52px ; left: 0px; position: absolute; }
+.collagenintro .text p { font-family: 'HelveticaNeueLTCom'; font-size: 19px;}
+.collagenintro .image img { width: 100%; }
+
+.collagenvideo { width: 100%; float: left; }
+.collagenvideo iframe { width: 98%; margin-left: 1%; }
+.collageningredients { width: 100%; float: left; padding: 30px 0; }
+.collageningredients .text { width: 100%; float: left; background: #f7f7f7; height: 350px; padding: 40px; }
+.collageningredients .text h2 { color: #f3823e; font-size: 28px; text-transform: capitalize; font-family: 'HelveticaNeueLTCom-Cn'; }
+.collageningredients .text p { color: #231f20; font-family: 'HelveticaNeueLTCom-Cn'; font-size: 18px; line-height: 30px; }
+.collageningredients .image { }
+.collageningredients .image img { width: 100%; float: left; height: 350px; }
+
+.collagenbone { width: 100%; float: left; padding: 30px 0; background: #eafcff; }
+.collagenbone h2 { color: #58595b; font-size: 30px; text-align: center; padding: 0 0 30px 0; text-transform: uppercase; font-family: 'HelveticaNeueLTCom-Cn'; }
+.collagenbone ul { }
+.collagenbone ul li { list-style-type: none; width: 30%; float: left; color: #58595b; }
+.collagenbone ul li img { width: 50px; height: 50px; background: #fff; border: 1px solid #2dc1d0; padding: 10px; margin: 0 20px 20px 0; float: left;}
+.collagenbone ul li p { padding: 0 100px 0 0; font-family: 'HelveticaNeueLTCom-Cn'; color: #58595b; font-weight: bold; line-height: 20px; }
+
+.collagenbone2 { width: 100%; float: left; padding: 30px 0; background: #eafcff; }
+.collagenbone2 h2 { color: #58595b; font-size: 30px; text-align: center; padding: 0 0 30px 0; text-transform: uppercase; font-family: 'HelveticaNeueLTCom-Cn'; }
+.collagenbone2 ul { }
+.collagenbone2 ul li { list-style-type: none; width: 25%; float: left; color: #58595b; }
+.collagenbone2 ul li img { width: 50px; height: 50px; background: #fff; border: 1px solid #2dc1d0; padding: 10px; margin: 0 20px 20px 0; float: left;}
+.collagenbone2 ul li p { padding: 0 35px 0 0; font-family: 'HelveticaNeueLTCom-Cn'; color: #58595b; font-weight: bold; line-height: 20px; }
+
+.collagenhowdoes { width: 100%; float: left; padding: 30px 0; }
+.collagenhowdoes .image { }
+.collagenhowdoes .image img { width: 100%; float: left; height: 450px; }
+.collagenhowdoes .text { width: 100%; float: left; background: #f7f7f7; height: 450px; padding: 50px; }
+.collagenhowdoes .text h2 { color: #f3823e; font-size: 30px; text-transform: capitalize; font-family: 'HelveticaNeueLTCom-Cn'; }
+.collagenhowdoes .text p { color: #231f20; font-family: 'HelveticaNeueLTCom-Cn'; font-size: 18px; line-height: 30px; }
+.collagenhowdoes .text ul {     list-style-type: disc;  list-style-position: inside;}
+.collagenhowdoes .text ul li { color: #231f20; font-family: 'HelveticaNeueLTCom-Cn'; font-size: 18px; line-height: 30px;}
+
+
+.collagendosagesafety { width: 100%; float: left; padding: 30px 0; }
+.collagendosagesafety .item { background: #f8f8f8;}
+.collagendosagesafety .image { padding: 40px 50px; width: 100%; float: left; min-height: 185px; }
+.collagendosagesafety .image img { width: 100%; float: left; }
+.collagendosagesafety .text { width: 100%; float: left; background: #f7f7f7; padding: 40px 110px 0px 20px; }
+.collagendosagesafety .text h2 { color: #28becd; font-size: 20px; font-family: 'HelveticaNeueLTCom-Cn'; } 
+.collagendosagesafety .text p { color: #231f20; font-family: 'HelveticaNeueLTCom-Cn'; font-size: 20px; line-height: 30px; }
+
+.collagenbehind { width: 100%; float: left; }
+.collagenbehind h2 { color: #fff; font-size: 18px; position: relative; margin: 0 auto; text-align: center; padding: 0 0; }
+.collagenbehind h2 a { background: #ee7e32; padding: 20px 34px;  max-width: 270px; color: #fff; display: inline-block; margin: 0 auto; font-family: 'HelveticaNeueLTCom-Cn'; text-decoration: none; }
+.collagenbehind h2:after { position: absolute; left: 0; top: 0; content: " "; background-image:url(../image/collagenback.png);background-size:cover; background-position: 45%; height: 84px; width: 100%; z-index: -1; }
+
+.collagenwhychoose { width: 100%; float: left; padding: 30px 0; }
+.collagenwhychoose .text { width: 100%; float: left; background: #f7f7f7; padding: 20px;  }
+.collagenwhychoose .text h2 { color: #28becd; font-size: 20px; font-family: 'HelveticaNeueLTCom-Cn'; padding: 0 0 10px 0; } 
+.collagenwhychoose p { color: #58595b; font-family: 'HelveticaNeueLTCom-Cn'; font-size: 18px; line-height: 30px; }
+.collagenwhychoose .text ul { list-style-type: none;  }
+.collagenwhychoose .text li { color: #58595b; font-family: 'HelveticaNeueLTCom-Cn'; font-size: 18px; line-height: 30px; }
+.collagenwhychoose .text li img { padding: 0 15px 0 0; }
+
+/* asta real css */
+.partnersBox { width: 100%; float: left; position: relative; }
+.partnersBox h2 { text-align: center; font-size: 25px;  padding: 50px 0 20px 0; position: relative; font-family: 'MuseoSansRounded-900'; font-weight: 900; text-transform: uppercase; }
+.partnersBox h2:before { content: " "; height: 83px; position: absolute; left: 0; float: left; width: 100%; background-image: url(../image/aboutback.png); background-size: cover; background-position: 96%; top: 90px; }
+
+.astareal { width: 100%; float: left; position: relative; padding: 100px 0px; }
+.astareal .text h3 {color: #f38334; padding: 0; font-size: 20px; font-family: 'MuseoSansRounded-500'; font-weight: 500; }
+.astareal .row { margin-bottom: 30px; }
+.astareal .text { padding: 0; }
+.astareal .text h2 { color: #58595b; font-size: 18px; padding: 0 0 10px 0; margin: 0; font-family: 'MuseoSansRounded-500'; font-weight: 500; }
+.astareal .text p { color: #58595b; font-size: 14px; line-height: 20px; font-family: 'MuseoSansRounded-300'; font-weight: 300; }
+.astareal .text p span { color: #30b9cc; }
+.astareal .image { padding: 0px 50px; }
+.astareal .image img { width: 100%; border: 1px solid #8a8a8a; padding: 30px; }
+
+/* dupont page */
+.dupont { width: 100%; float: left; position: relative; padding: 100px 0px; }
+.dupont .text h3 {color: #f38334; padding: 0; font-size: 22px; font-family: 'MuseoSansRounded-500'; font-weight: 500; }
+.dupont .row { margin-bottom: 30px; }
+.dupont .text { padding: 0; }
+.dupont .text h2 { color: #58595b; font-size: 20px; padding: 0 0 10px 0; margin: 0; font-family: 'MuseoSansRounded-500'; font-weight: 500; }
+.dupont .text p { color: #58595b; font-size: 14px; line-height: 20px; font-family: 'MuseoSansRounded-300'; font-weight: 300; }
+.dupont .text p span { color: #30b9cc; }
+.dupont .image { padding: 0px 50px; }
+.dupont .image img { width: 100%; border: 1px solid #8a8a8a; padding: 30px; }
+/* windlas page */
+.windlas { width: 100%; float: left; position: relative; padding: 100px 0px; }
+.windlas .text h3 {color: #f38334; padding: 0; font-size: 22px; font-family: 'MuseoSansRounded-500'; font-weight: 500; }
+.windlas .row { margin-bottom: 30px; }
+.windlas .text { padding: 0; }
+.windlas .text h2 { color: #58595b; font-size: 20px; padding: 0 0 10px 0; margin: 0; font-family: 'MuseoSansRounded-500'; font-weight: 500; }
+.windlas .text p { color: #58595b; font-size: 14px; line-height: 20px; font-family: 'MuseoSansRounded-300'; font-weight: 300; }
+.windlas .text p span { color: #30b9cc; }
+.windlas .image { padding: 0px 50px; }
+.windlas .image img { width: 100%; border: 1px solid #8a8a8a; padding: 30px; }
+
+/* contact us */
+.contactus { width: 100%; float: left; }
+.contactus .image { width: 100%; float: left; }
+.contactimg { width: 100%; float: left; }
+.contactimg h2:after {  position: absolute; left: 0; top: 24px; content: " "; background-image: url(../image/collagenback.png);  background-size: cover;
+    background-position: 75%;  height: 84px; width: 100%; z-index: -1; }
+.contactimg h2 {color: #fff; font-size: 18px; position: relative; margin: 0 auto; text-align: center; padding: 60px 0; }
+.contactus .image img  { width: 100%; height: 625px; }
+.googlemap { width: 100%; float: left; padding: 25px 0; }
+.address { width: 100%; float: left; padding: 20px 0; 	 }
+.address .item { background: #f8f8f8; padding: 50px 30px; min-height: 435px;}
+.address .item h2 { font-size: 25px;  font-weight: bold; text-transform: capitalize; font-family: 'HelveticaNeueLTCom-Cn'; padding: 5px 0;}
+.address .item h3 { font-size: 25px;  font-weight: bold; text-transform: capitalize; font-family: 'HelveticaNeueLTCom-Cn'; padding: 5px 0;}
+.address .item h3 span { color: #ee7e32;font-size: 25px;  font-weight: bold; text-transform: lowercase; font-family: 'HelveticaNeueLTCom-Cn'; padding: 5px 0;}
+.address .item p { font-size: 20px;  font-weight: bold; text-transform: capitalize; font-family: 'HelveticaNeueLTCom-Cn'; padding: 5px 0;}
+.address .item form .form-control { margin: 10px 0; }
+.address .item form input { border: 1px solid #da712a; }
+.address .item form textarea { border: 1px solid #da712a;  height: 120px;}
+.address .item form button { background: #ee7e32; padding: 10px 38px;   color: #fff;   font-family: 'HelveticaNeueLTCom-Cn'; border: none;  border-radius: 5px; }
+.address .item form .form-control:focus { box-shadow: none; } 
+.address .item form button:focus { outline: none; } 
+
+/* slider */
+.collagenintro .text h2 { position: relative; }
+.collagenintro .text h2 sup { position: absolute; font-size: 15px; top: 5px; font-family: GothamBlackRegular;	}
+.signform span.text {   font-size: 13px; color: #58595b; font-weight: 400; top: -2px; position: relative; }    
+
+/* buy product page */
+.buy-product { width: 100%; float: left; border-top: 1px solid #45bace; padding: 30px 0;}
+.buy-product .image img { width: 100%; margin: 0 auto; display: block;}
+.buy-product .image h3.paytm { margin-top: 15px; font-weight: bold; color: #4d4d4d; font-size: 32px; }
+.buy-product .paylogo { width: 80%; float: left; }
+.buy-product .paybutton { width: 20%; float: left; }
+.buy-product .paylogo img { width: 50%; margin: 0 auto; display: block; }
+.buy-product .indiamart {   margin: 0 auto; display: block; }
+.buy-product .button { border: none; margin: 0; border-radius: 2px; text-align: center; font-size: 14px; background: #45bace; color: #fff; width: 50%; padding: 7px 30px; }
+.buy-product .payment-left { width: 100%; float: left; margin-top: 30px;}
+.buy-product .payment-left .item { width: 100%; float: left; margin-bottom: 45px; }
+.buy-product .payment-left .item.last { margin-bottom: 10px !important; }
+.buy-product .paybutton button { margin: 0 auto; display: block;}
+.buy-product .item{margin: 20px 0;}
+
+
+.paynow { width: 100%; float: left; }
+.paynow img { width: 100%; margin-top:-50%;  }
+.buy-product .bdr {border: 1px solid #23b9ce; width: 2px; height: 100%; text-align: center; position: relative; left: 50%;}
+.payu {position: relative;}
+.payu img {position: absolute; top: 160px; left: 60px; }
+.radio_ {margin-top: 5px; position: relative !important; margin-bottom: 12px; cursor: pointer; font-size: 22px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+.radio_ input { position: absolute; opacity: 0; cursor: pointer;  }
+.radio_ .checkmark { position: absolute; top: 10px; left: 0; height: 18px;width: 18px; background-color: #ee7e32; border-radius: 50%; }
+.radio_:hover input ~ .checkmark { background-color: #ccc;}
+.radio_ input:checked ~ .checkmark { background-color: #45bace; }
+.radio_ .checkmark:after { content: ""; position: absolute; display: none; }
+.radio_ input:checked ~ .checkmark:after { display: block; }
+.radio_ .checkmark:after { top: 5px; left: 5px; width: 8px; height: 8px; border-radius: 50%; background: white; }   
+.radio_ .text {  position: relative; left: 0px; top: -1px; font-size: 24px; font-weight: 700; color :#45bace; }  
+
+/* image page css */
+.videoslayout, .imagelayout { width: 100%; float: left; padding: 40px 0;}
+.imagelayout img { max-width: 100%; height: 245px;}
+.videoslayout h2, .imagelayout h2 { padding: 0; margin-bottom: 20px; color: #ee7e32; font-size: 36px; font-family: 'museosansrounded300webfont'; }
+
+/* video page css */
+.videoslayout .item iframe, .videoslayout .item video{ width: 100%; float: left; height: 300px; margin-bottom: 30px;}
+.topbaneer {}
+
+/* gallery load btn */
+.galleryloadbtn { width: 100%; float: left; text-align: center; margin: 84px 0px 0px 0px; }
+.galleryloadbtn .more {padding: 7px 30px; border: 1px solid  #f8ad79; border-radius: 20px;margin-right: 20px; background:#f8ad79; color: #fff !important; }
+.galleryloadbtn .less {  padding: 7px 30px; border: 1px solid  #ad7f61; border-radius: 20px;margin-right: 20px; background: #fff;  }
+.galleryloadbtn .more:hover { background:#1dbecf; transition: all .4s ease-in-out; color: #fff; border-radius: 2px; border: 1px solid #1dbc9c; }
+.galleryloadbtn .less:hover { background:#1dbecf; transition: all .4s ease-in-out; color: #fff; border-radius: 2px; color: #fff!important; border: 1px solid #1dbc9c; }
+
+
+.enquire-now label{
+    float: left;
+}
+
+.enquire-now i{
+    position: absolute;
+    padding: 5px 9px;
+    background: #000;
+    color: #fff;
+}
+
+.enquire-now img{
+    position: absolute;
+    background: #f0f0f0;
+    width: 30px;
+    height: 30px;
+    top: 36px;
+    padding: 3px;
+    left: 17px;
+}
+
+.enquire-now input[type=date]{
+    margin-left: -43px;
+    margin-top: 6px;
+}
+
+.enquire-now input{
+    border-bottom: 2px solid #000;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 0px solid transparent;
+    margin: 0 0 16px 29px;
+    padding: 4px 11px;
+}
+
+.enquire-now select{
+    border-bottom: 2px solid #000;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 0px solid transparent;
+    background: #fff;
+    padding: 3px 6px;
+    margin: 16px 10px;;
+}
+
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+  outline: 2px solid #f00;
+}
+
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 615px!important;
+}
+}

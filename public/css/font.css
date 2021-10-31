@@ -1,0 +1,29 @@
+/* font css  */
+@font-face {
+    font-family: 'Greycliff-CF';
+    src: url('../fonts/Greycliff-CF.ttf');   
+}
+
+@font-face {
+    font-family: 'Greycliff-light';
+    src: url('../fonts/Greycliff-light.ttf');   
+}
+@font-face {
+    font-family: 'graycli';
+    src: url('../fonts/graycli.ttf');   
+}
+@font-face {
+    font-family: 'arial';
+    src: url('../fonts/arial.ttf');
+   
+}
+@font-face {
+    font-family: "GothamMedium";
+    src: url("../fonts/GothamMedium.otf");
+   
+}
+@font-face {
+    font-family: "GothamBookRegular";
+    src: url("../fonts/GothamBookRegular.otf");
+   
+}

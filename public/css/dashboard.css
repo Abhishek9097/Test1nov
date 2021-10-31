@@ -1,0 +1,284 @@
+
+body, html { margin: 0; padding: 0; overflow-x: hidden; }
+*{ padding: 0; margin: 0; box-sizing: border-box;}
+
+/* default css */
+.mb0 { margin-bottom: 0 !important; }
+.pd0 { padding: 0; }
+.pr-10 { padding-right: 10px; }
+.pr-5 { padding-right: 5px; }
+.pl-5 { padding-left: 5px; }\
+.pl-50 { padding-left: 50px !important; }
+.mr0 { margin: 0; }
+ul li { list-style-type: none; }
+a:hover { text-decoration: none; }
+.form-control { padding: 5px 15px; font-size: 12px; border: 1px solid #e20327; height: calc(15px + 12px + 2px); color: #000000;}
+.clr-white { color: white; }
+.page-item.active .page-link { background-color: #cf142b; border-color: #cf142b; }
+.page-link:focus { outline: 0; box-shadow: none; }
+table.dataTable thead .sorting_asc:after { opacity: 0.9; }
+.page-item.disabled .page-link, .page-link { color: #162d68; }
+.modal-open .modal { overflow-x: hidden; overflow-y: hidden; padding-right: 0 !important;}
+.modal-open { padding-right: 0 !important; }
+.form-control:focus { box-shadow: none; }
+.w-100 { width: 100%; }
+ *:focus {outline: 0; }
+/* header */
+.wrapper { width: 100%; float: left;}
+.container { max-width: 1200px; }
+.header { width: 100%; float: left; background: #Fff;}
+.header .landing-soon {width: 100%; margin: 0 auto; padding: 10px 0; text-align: center; }
+.header .blue-border { height: 7px; width: 100%; background-color: #152d68; }
+.header .red-border{ margin-top: 3px; height: 6px; width: 100%; background-color: #cf142b; }
+.header .landing-soon img{ width:320px; }
+.header .new-market { background:#152d68; color: #fff; font-size: 40px;width: 100%; text-align: center; padding: 6px 0; }
+.header .new-market p { margin: 0; padding: 0px; font-size: 30px; font-weight: 500;  }
+
+/* main layout */
+.trading-hub { text-align: center; width: 100%; float: left;}
+.trading-hub p { line-height: 30px;  margin: 0 25px;font-size: 20px; font-weight: 500; color: #122c6b; font-family: GothamMedium;  padding: 15px 0 10px 0;}
+.trading-hub .mobile { display: none; }
+
+/* animation */
+.back-img{ background: url(../img/ukbanner.png);width: 100%;background-position-x: 37%;-webkit-background-position-x: 37%;background-size: cover;float: left;margin: 0;}
+.animation { text-align: center; }
+.animation img { width: 450px; }
+
+
+/* footer design */
+.footer-top { width: 100%; float: left; padding: 5px 0; }
+.uk-marketplace span { color: #cf142b; }
+.uk-marketplace p {color: #152d68; margin: 0; padding: 0; font-size: 24px;   font-weight: 600; text-align: center;}
+.footer { width: 100%; float: left; }
+.footer .red-bdr {margin-bottom: 3px; height: 6px; width: 100%; background-color: #cf142b; }
+.footer .copyright { width: 100%; background-color: #152d68;  }
+.footer .copyright * { color: white;}
+.footer .copyright p { margin: 0; padding: 15px 0;  font-size: 16px; text-align: center;}
+.footer .copyright ul { margin: 0; float: right; }
+.footer .copyright ul li { list-style-type: none; padding: 15px 0; float: left;  font-size: 16px;positon: relative;}
+.footer .copyright ul li:nth-child(1):before { position: absolute; content:"|"; right: 32%;}
+.footer .copyright ul li:nth-child(1) { margin-right: 40px; }
+.footer .copyright .slide-2 { width: 100%; flot: left; }
+
+/*user register list */
+.user_registerlist { width: 100%; float: left; padding: 50px 0; background: url(../img/ukbanner.png); }
+.user_registerlist table { background: #ffffffa6; border: 1px solid #9a32b1; border-collapse: inherit; overflow-x: scroll;}
+.user_registerlist table thead { background: #9c35b3; color: #fff;  }
+label { display: inline-block;margin-bottom: 0;color: #112c6d; font-weight: 700;}
+
+/* user visitor */
+.user-visitor input { height: 35px; border-radius: inherit;  }
+
+/* login dashboard */
+.logingarea_db { width: 100%; float: left; margin-top: 5px; }
+.logingarea_db ul { width: 100%; float: left; margin-top: 24px; }
+.logingarea_db ul li { display: inline; padding: 4.5px 0px; border: 1px solid #cf152b; width: 45%; float: left; text-align: center;}
+.logingarea_db ul li a { font-weight: 600; }
+.logingarea_db ul li.download:hover { background: #cf152b; -webkit-transition-duration: 0.5s; transition-duration: 1s; }
+.logingarea_db ul li.download:hover a { color: #fff; }
+.logingarea_db ul li.logout:hover { background: #fff; -webkit-transition-duration: 0.5s; transition-duration: 1s; }
+.logingarea_db ul li.logout:hover a { color: #cf152b; }
+.logingarea_db ul li.download a { color: #cf152b;}
+.logingarea_db ul li.logout { background: #cf152b; margin-left: 10%; }
+
+/*responsive css */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .header .landing-soon img { width: 280px; }
+    .header .new-market p { font-size: 26px; }
+    .trading-hub p { line-height: 25px; font-size: 16px;padding: 10px 0 10px 0; }
+    .animation img { width: 400px; }
+    .registerarea ul li a { font-size: 12px; }
+    .registerarea ul li {    padding: 5px 12px; }
+    .registerarea ul li span { margin-right: 10px; }
+    .registerarea .registerform h2 a { font-size: 20px }    
+    .uk-marketplace p { font-size: 22px; }
+    .footer .copyright p { font-size: 14px; padding: 12px 0; }
+    .footer .copyright ul li { padding: 12px 0; font-size: 14px; }
+    .footer .copyright ul li:nth-child(1):before { right: 32%; }   
+    .registerarea { width: 400px; }
+    
+    }
+    
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .header .landing-soon img { width: 300px; }
+    .header .new-market p { font-size: 28px; }
+    .trading-hub p { font-size: 18px;line-height: 30px; padding: 10px 0; }
+    .uk-marketplace p { font-size: 24px; text-align: center; }
+    .registerarea ul li a { font-size: 14px; }
+    .registerarea .registerform h2 a { font-size: 24px; }
+    .registerarea .registerform { height: auto; }
+    .registerarea .registerform h2 { padding: 0 0 5px 0; }
+    .registerarea ul li { height: auto; padding: 7px 10px; }
+    .footer .copyright p {    padding: 15px 0; font-size: 15px; }
+    .footer .copyright ul li {    font-size: 15px; padding: 15px 0; }
+    .footer .copyright ul li:nth-child(1):before { right: 39%; }
+    .login_error { font-size: 14px; }
+    .logingarea_db ul { margin-top: 14px; }
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+   
+    .header .landing-soon img { width: 280px; }
+    .header .new-market p { font-size: 24px; }
+    .trading-hub p { padding: 15px 0;font-size: 16px;line-height: 24px; }
+    .animation img { width: 530px; }
+    .registerarea { width: 500px; } 
+    .registerarea .registerform h2 a { font-size: 24px; }
+    .registerarea .registerform { height: auto; }
+    .registerarea .registerform h2 {padding: 0px 0 8px 0; }
+    .registerarea ul li a { font-size: 17px; }
+    .uk-marketplace p { text-align: center; line-height: 34px;font-size: 20px; }
+    .footer .copyright ul li:nth-child(1):before { right: 38%; }
+    .footer .copyright p { padding: 12px 0; font-size: 10px; }
+    .footer .copyright ul li { font-size: 10px; padding: 10px 15px;  }
+    .registerarea ul li span { width: 25px; height: 25px; }
+    .registerarea ul li { height: auto; }
+    .registerarea ul li span img { top: 0px; left: 2px;}
+    .registerarea ul li { padding: 8px 10px; }
+    .useraccept p { font-size: 13px; }
+    #cookies p { font-size: 13px; }
+    
+}
+@media only screen and (max-width: 767px){  
+   .header .landing-soon img { width: 270px; }
+   .header .new-market p { font-size: 24px; }
+   .trading-hub p { font-size: 16px; padding: 15px 0 10px 0; line-height: 25px; }
+   .footer-top .container { padding-left: 15px;padding-right: 15px; }
+   .uk-marketplace p { font-size: 20px; }
+   .footer .copyright ul li { padding-top: 0; width: 45%;}
+   .footer .copyright ul { width: 100%; }
+   .footer .copyright ul li:nth-child(1) { text-align: right; }
+    .footer .copyright ul li:nth-child(1)::before { right:51%; }
+    #myModal form { padding: 10px 12px; }
+    .policy-form p { font-size: 13px; }
+    .useraccept { padding: 35px; }
+    .useraccept h5 span { margin: 0 5px 0 5px; }
+    .useraccept h5 { font-size: 14px; }
+    .useraccept p { font-size: 12px; }
+    .allpolicy h1 { font-size: 24px; }
+    .useraccept h5 span img { width: 25px; }
+    .useraccept h5 { margin-bottom: 20px;  }
+    .modal-open .modal { overflow-y: scroll; }
+    #cookies p {    font-size: 12px;}
+    .allpolicy h1 { font-size: 28px; margin-bottom: 20px; }
+    .allpolicy p { margin-bottom: 20px; font-size: 14px;  }
+    .allpolicy .policytext { padding: 20px 0 0 0; }
+    .allpolicy .policytext h2 { font-size: 20px; }
+    .allpolicy ul li { font-size: 14px;   }
+    .allpolicy .policytext h4 { font-size: 19px; }
+    .allpolicy h3 { font-size: 18px; }
+    .allpolicy p.again { font-size: 16px !important; }
+    
+    
+    /* user list */
+    div.table-responsive>div.dataTables_wrapper>div.row>div[class^="col-"]:last-child { padding-right: 15px !important; padding-left: 0; }
+    div.dataTables_wrapper div.dataTables_paginate ul.pagination { justify-content: center; margin-top: 10px; }
+    div.dataTables_wrapper div.dataTables_length { text-align: left; margin-bottom: 15px;}
+    div.dataTables_wrapper div.dataTables_filter { text-align: left; }
+    
+}
+@media only screen and (max-width: 480px){ 
+    
+    .header .landing-soon img { width: 250px; }
+    .animation img { width: 335px; }
+    .registerarea { width: 90%; margin-top: 30px;}
+    .header .new-market p { font-size: 24px; line-height: 28px; }
+    .trading-hub { width: 90%; margin: 0 auto; float: none; }
+    .trading-hub p { margin: 0; padding: 15px 0; font-size: 15px; line-height: 25px;}
+    .uk-marketplace p { font-size: 18px; text-align: center; }
+    .footer .copyright p { padding: 10px 0; font-size: 14px; text-align: center; }
+    .footer .copyright ul li { font-size: 14px; padding: 0 0 10px 0; width: 43%;}
+    .footer .copyright .side-2 { width: 100%; float: left; }
+    .footer .copyright ul li:nth-child(1) { text-align: right; }
+    .footer .copyright ul li:nth-child(2) { text-align: left; }
+    .footer .copyright ul { width: 100%; }
+    .footer .copyright ul li:nth-child(1):before { right: 50%; }
+    .registerarea .registerform h2 a { font-size: 22px; }
+    .registerarea .registerform { height: auto; padding: 5px 0; margin-bottom: 20px; }
+    .registerarea ul li span { width: 25px; height: 25px; }
+    .registerarea ul li { height: auto;    padding: 10px 10px; }
+    .registerarea ul li a { font-size: 11px; }
+    .registerarea ul li span .fa { font-size: 14px; margin-top: 5px; }
+    .registerarea ul li span img { top: 4px; left: 4px; width: 18px; }
+    .back-img { margin: 0;  background-position-y: -108px;  -webkit-background-position-y: -108px; background-position-x: -536px; -webkit-background-position-x: -536px; }
+    .footer-top { width: 90%; margin-left: 5%; }
+    .trading-hub .mobile { display: block; }
+    .trading-hub .desktop { display: none; }
+    .modal-dialog { margin: 0; padding: 30px; }
+    .thanku .modal-body { padding: 10px; }
+    .congrats .thank_text h3 { font-size: 25px; }
+    .congrats .thank_text { padding: 0; }
+    .useraccept { padding: 35px 10px; }
+      .logingarea_db ul { margin-top: 0; }
+      #cookies button {right: -10px; }
+  
+}
+@media only screen and (min-width: 376px) and (max-width: 420px) {
+    .registerarea ul li span { margin-right: 7px; }
+    .registerarea ul li a { font-size: 11px; }
+    .registerarea ul li { width: 48%; padding: 10px 5px;}
+    .useraccept p { font-size: 11px; }
+    
+}
+@media only screen and (max-width: 375px){ 
+    .animation img {width: 290px; }
+    .trading-hub p { padding: 10px 10px;  font-size: 12px;}
+    .registerarea ul li { padding: 7px 5px; }
+    .registerarea ul li a { font-size: 10px; }
+    .uk-marketplace p { font-size: 18px; }
+    .footer .copyright ul li, .footer .copyright p { font-size: 12px; }
+    .registerarea .registerform h2 a { font-size: 22px; }
+    .header .new-market p { font-size: 20px;  }
+    .registerarea .registerform {height: auto; padding: 0 0 10px 0; }
+    .footer .copyright ul li { padding: 0 0 15px 0; }
+    .registerarea ul li span {     margin-right: 5px; }
+    .trading-hub p { font-size: 13px; line-height: 23px; }
+    .back-img { margin: 0;  background-position-y: -108px;  -webkit-background-position-y: -108px; background-position-x: -536px; -webkit-background-position-x: -536px; }
+    .registerarea .registerform h2 { padding: 0; }
+    ::-webkit-input-placeholder { font-size: 12px; }
+    :-ms-input-placeholder {font-size: 12px; }
+    ::placeholder {  font-size: 12px; }
+    .useraccept p { font-size: 9px; }
+}
+
+@media only screen and (max-width: 320px){
+    .registerarea ul li a { font-size: 8px; vertical-align: middle;}
+    .header .new-market p { font-size: 18px; }
+    .trading-hub p { font-size: 12px; line-height: 20px; }  
+    .registerarea ul li span { width: 20px; height: 20px; }
+    .registerarea ul li span img { top: 2px; left: 2px; }
+    .registerarea ul li { padding: 5px 5px; }
+    .registerarea .registerform h2 a { font-size: 20px; }
+    .registerarea .registerform { padding: 0; }
+    .uk-marketplace p { font-size: 18px; }
+    .footer .copyright ul li:nth-child(1) { margin-right: 34px;} 
+    .back-img { margin: 0;  background-position-y: -108px;  -webkit-background-position-y: -108px; background-position-x: -536px; -webkit-background-position-x: -536px; }
+    .registerarea .registerform h2 { padding: 0 0 8px 0; }
+    .animation img { width: 275px; }
+    .congrats .thank_text h3 { margin-bottom: 10px; }
+    .congrats .thank_text h4 { font-size: 14px; }
+    .congrats .thank_text h5 { font-size: 14px; }
+    ::-webkit-input-placeholder { font-size: 12px; }
+    :-ms-input-placeholder {font-size: 12px; }
+    ::placeholder {  font-size: 12px; }
+    #myModal form { padding: 15px 10px  important; }
+    .policy-form p { font-size: 10px; }
+    .useraccept h5 { font-size: 13px; margin-top: 10px;} 
+    .useraccept { padding: 6px; }
+    .useraccept h5 span img { width: 25px; }
+    .useraccept p { font-size: 11px; }
+    #cookies p { font-size: 10px; }
+    
+}
+@media only screen and (min-width: 280px) and (max-width: 319px) {
+    .trading-hub p { font-size: 10px; }
+    .uk-marketplace p { font-size: 15px; }
+    .useraccept h5 span img { width: 20px; }
+    .useraccept h5 { font-size: 10px; }
+    .useraccept p { font-size: 8px; }
+    .useraccept { padding: 15px 6px; }
+    
+    
+    
+    
+}

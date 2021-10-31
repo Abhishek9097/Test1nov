@@ -1,0 +1,474 @@
+
+@media (min-width: 1200px) {
+   
+    .top .startup_makeinindia .startupindia { width: 18%; }
+    .tollfreeno { /*right: 30px;*/  }
+    .header .searchBox ul li a.storelogin { padding: 0px 15px;  line-height: 37px; }
+   
+    
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .mycontainer { width: 100%; }
+    .header .headerleft .rightbottom .menu nav ul li {padding: 0px 10px; }
+    .header .headerleft .rightbottom .menu ul>li>a {padding: 24px 14px; }
+    .header .logo img { width: 90%; }
+    .tollfreeno { right: 0px; }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+
+	/* index page */
+	.header .headerleft .rightbottom .menu ul>li>a { font-size: 12px; padding: 25px 0;}
+	.header .searchBox ul li a.storelogin { padding: 25px 0; }
+	.header .searchBox ul { text-align: center; left: -23px;}
+	.header .searchBox ul li a.storelogin .tollfreeno { left: 0; }
+	.tollfreeno {  left: 42px; }
+	.tollfreeno p { text-align: left; }
+	.top .startup_makeinindia .makeinindia img { width: 100px; }
+	.top .startup_makeinindia .staymevicon .img1 { height: 30px; }
+	.top .startup_makeinindia .staymevicon .img2, .top .startup_makeinindia .staymevicon .img3 { height: 20px; }
+	.top .startup_makeinindia .startupindia { width: 18%; margin-left: 2%; }
+	.top .startup_makeinindia .staymevicon { width: 66%;}
+	.top .startup_makeinindia { position: relative; }
+	.top .startup_makeinindia h2 { left: 105px; }
+	.header .searchBox { text-align: center; }
+	.header .socialicon ul li { padding-right: 16px; }
+	.aboutBox h2 { padding: 20px 0; }
+	.aboutBox h2:before { background-position: 60%; top: 30px;}
+	.aboutBox .aboutright { padding: 21px; max-height: 280px; }
+	.aboutBox .aboutleft img { max-height: 280px; }
+	.visionmissionBox { padding: 40px 34px; }
+	.valuesBox { padding: 50px 0; }
+	.belieffactsBox .image img { padding: 0 40px; }
+	.belieffactsBox .image { padding: 0; }
+	.beliefBox h2:before { background-position: 50%; }
+	.videoBox { padding: 40px 0; }
+	.factsBox ul li { padding: 10px; }
+	.factsBox { padding: 0; }
+	.collagenintro .text h2 { font-size: 35px; }
+	.collagenbone ul li p { padding: 0; }
+	.collagenhowdoes .text ul li { font-size: 18px; line-height: 23px; }
+	.collagenbehind h2:after { background-position: 50%; }
+	.collagenhowdoes .text { padding: 40px; }
+	.header .searchBox ul li a { padding: 28px 6px; }
+	.collagenintro .text span:after { top: 60px; }
+	.address .item { min-height: 450px; }
+	.footer .tollfreeno p { font-size: 15px; }
+	
+	/* top bar responsive */
+    .top .supportindia { width: 70%; }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* top bar */
+    .top .startup_makeinindia .makeinindia img { width: 70px; }
+    .top .startup_makeinindia .startupindia img { width: 100px; }
+    .top .startup_makeinindia .startupindia .image_ { text-align: left !important; }
+    .top .startup_makeinindia .startupindia { width: 15%;  }
+    .top .startup_makeinindia { position: relative; }
+    .top .startup_makeinindia h2 { left: 65px; top: 21px; }
+    .top .startup_makeinindia .staymevicon .img1 { height: 25px; }
+    .top .startup_makeinindia .staymevicon .img2 { height: 15px; }
+    .top .startup_makeinindia .staymevicon .img3 { height: 15px; }
+    .header .searchBox ul li a.storelogin { padding: 24px 32px; }
+    .header .searchBox ul { margin: 0; }
+    .header .headerleft .rightbottom .menu nav ul { margin: 0; }
+    .tollfreeno { right: 15px; }
+    .top .supportindia { width: 100%; }
+    
+    /* menu bar */
+    .header .headerleft .rightbottom .menu ul>li>a { padding: 25px 1px; }
+    .mycontainer { width: 100%; }
+   .header .headerleft .rightbottom .menu nav ul li { padding: 0px 0 0 6px; }
+   .header .socialicon ul li { padding-right: 6px; }
+   .footer .logo ul li { padding-right: 4px; }
+   .header .headerleft .rightbottom .menu ul>li>a { font-size: 10px; }
+   .header .logo {  padding: 15px 0; }
+   /* index page */
+   .bannersliderBox .bannerslider .item { height: 400px;}
+   .aboutBox h2 { padding: 20px; }
+   .aboutBox h2:before { background-position: 60%; top: auto;}
+   .aboutBox .aboutright { max-height: 320px; }
+   .aboutBox .aboutleft img { max-height: 320px; }
+   .valuesBox { padding: 40px 0; }
+   .valuesBox .text h1 { font-size: 16px;  }
+   .valuesBox .image { margin-top: 60px;  }
+   /* responsible page */
+   .beliefBox h2 { padding: 22px 20px; }
+   .belieffactsBox .image { padding: 0; }
+   .belieffactsBox .text p { padding: 5px 0; margin: 0; }
+   .belieffactsBox .text { padding: 0; }
+   .belieffactsBox { padding: 70px 0 30px 0; }
+   .videoBox { padding: 40px 0; }
+   .stepBox { padding: 50px 0 0 0; }
+   .factsBox ul li { padding: 5px; height: 110px; }
+
+   .aboutBox .aboutright { padding: 15px; }
+   .visionmissionBox { padding: 0; }
+   .visionmissionBox .col-md-6 { padding: 15px; }
+   .visionmissionBox .text p { padding: 0; }
+   .visionmissionBox .text ul { padding: 0;}
+   .visionmissionBox .text ul li { line-height: 16px; margin: 0; padding: 0; }
+   .valuesBox .text { padding: 6px; }
+   .contactus .image img { height: auto; }
+   .contactimg h2:after { top: 0; height: 61px; }
+   .address .item { padding: 10px;}
+   .address .item h3 span { font-size: 20px;  }
+   .address .item h3 { font-size: 27px; }
+   .collagenbehind h2:after { background-position: 32%; height: 60px; top: 5px; }
+
+   /* product coral */
+   .collagenintro .text { padding: 50px 0; }
+   .collagenintro .text h2 { font-size: 35px; }
+   .collagenintro .text span:after { top: 60px; }
+   .collagenintro .text span { font-size: 18px; }
+   .collageningredients .text h2 { font-size: 24px; }
+   .collageningredients .text { padding: 10px; }
+   .collageningredients .text p { font-size: 16px; }
+   .collagenbone2 ul li p { font-size: 13px; padding: 0; }
+   .collagenhowdoes .text { padding: 20px; }
+   .collagenhowdoes .text h2 { font-size: 30px; }
+   .collagenhowdoes .text p { font-size: 17px; line-height: 25px; }
+   .collagendosagesafety .image { padding: 20px; }
+   .collagendosagesafety .text { padding: 10px; }
+   .collagenbone ul li p { padding: 0; font-size: 14px; }
+   .collagenbone ul { width: 100%; }
+	.collagenbone ul  li { width: 25%; }
+	.collagenbone ul li img { margin: 0 5px; }
+	.collagenhowdoes .text ul li { line-height: 20px; }
+
+	.astareal .image { padding: 0; }
+	.dupont .image { padding: 0; }
+	.windlas .image { padding: 0; }
+	.partnersBox h2:before { background-position: 60%; }
+	.beliefBox h2:before { background-position: 67%; height: 60px; }
+	
+	/* contact us */
+	.address .item h2 { font-size: 20px; }
+	.address .item h3, .address .item h3 span { font-size: 18px;}
+    
+    .footer .tollfreeno p span {
+    display: block;
+    padding: 0;
+    font-size: 11px;
+}
+.footer .tollfreeno p { font-size: 15px; }
+	
+	
+	
+}
+
+@media only screen and (max-width: 767px){
+    /* top bar */
+    .top .startup_makeinindia .startupindia img { width: 150px;}
+    
+    
+    .mycontainer { width: 100%; }	
+	.menu { display: none; }
+	.menu ul { display: none; }
+    .mobilemmenu { display: block; }
+    .mobilemmenu { padding: 14px 0 0 32px; display: block; float: left; }
+    .top .startup_makeinindia .staymevicon .img2, .top .startup_makeinindia .staymevicon .img3 { padding-left: 0; }
+    .mobilemmenu .menutoggle { padding: 7px 10px; float: left; font-size: 18px; color: #fff; text-decoration: none; background: #ee7e32; }
+    .productpop ul>li a { border: none; }
+	#mmenu ul { display: block; }
+	.mm-listview li span { font-size: 16px; }
+    .mm-listview li span small { font-size: 12px; }
+    .mm-listview li span img { border-radius: 50px; width: 50px; height: 50px; margin: -5px 10px -5px -5px; float: left; }
+    .header .logo img { width: 87%;}
+	.header .socialicon ul li { padding-right: 8px; }
+	.header { max-height: 70px; }
+	.header .searchBox { position: relative; }
+	.header .searchBox ul { position: absolute; left: -50px; top: -10px; }
+	.header .searchBox ul li a { padding: 23px 10px; }
+    .header .socialicon { display: none; }
+	
+	.bannersliderBox .bannerslider .item p { padding: 10px 0px; font-size: 25px; width: 100%; }
+	.bannersliderBox .bannerslider .item { height: 220px; }
+	.aboutBox h2 { padding: 20px 0 15px 0;}
+	.aboutBox .aboutleft img { height: auto; }
+	.aboutBox h2:before { height: 35px; background-size: cover; background-position: 51%; top: 45px; }
+	.visionmissionBox .text ul { padding: 0; }
+	.visionmissionBox .text { padding: 20px; min-height: 290px; }
+	
+	.aboutBox .aboutleft { width: 100%; height: auto; }
+	.aboutBox .aboutright { width: 100%; padding: 15px; height: auto; font-size: 15px; text-align: center; }
+	.visionmissionBox { padding: 0; }
+	.visionmissionBox .col-md-6 { padding: 0px 15px; margin: 10px 0; }
+	.visionmissionBox .text p { padding: 0px; }
+	.visionmissionBox .text ul li { line-height: 18px; }
+	
+	.indiaBox { background-size: contain; }
+	.indiaBox h2 { padding: 10px; font-size: 22px; }
+	.indiaBox ul { margin: 0; }
+	.indiaBox ul li { padding: 0 2px; min-height: 40px; margin: 0 6px; color: #fff; font-size: 11px; line-height: 32px; width: 46%; }
+	.valuesBox { padding: 0; }
+	.valuesBox .image img { padding: 40px; }
+	.valuesBox .text { padding: 15px; height: auto; margin-bottom: 15px; }
+	.newsBox .newsslider { padding: 0 50px; }
+	.newsBox .owl-prev { left: -20%; }
+	.newsBox .owl-next { right: -20%; }
+	.indiaBox ul li img { width: 18px; }
+	.indiaBox img  { height: 150px; }
+	.responsibleBox { height: auto; }
+	.responsibleBox h1 { padding: 40px 0px; font-size: 25px; width: 100%; }
+	.beliefBox h2 { padding: 20px 0 20px 0; }
+	.beliefBox h2:before { height: 50px; background-size: cover; background-position: 65%; top: 42px; }
+	.belieffactsBox { padding: 20px 0; }
+	.belieffactsBox .image { padding: 10px 0; }
+	.belieffactsBox .text { padding: 10px 0; }
+	.factsBox ul { padding: 0 10px; }
+	.factsBox ul li { width: 100%; margin: 0 0 10px 0;}
+	.factsBox { padding: 0; }
+	.videoBox { padding: 10px; }
+	.videoBox iframe { height: 200px; }
+	.stepBox p { line-height: 18px; }
+	
+	.productsliderBox .productslider .item { height: 200px; }
+	.productgallery { padding: 20px 0px; }
+	.productgallery img { margin-bottom: 20px; }
+	.newsBox .owl-next { margin-right: 5px;  }
+	.newsBox .owl-prev { margin-left: 5px; }
+	
+	.productsBox { height: auto; }
+	.productsBox h1 { padding: 40px 0px; font-size: 25px; width: 100%; }
+	.partnersBox h2 { padding: 20px 0 20px 0; }
+	.partnersBox h2:before { height: 50px; background-size: cover; background-position: 63%; top: 50px; }
+	.partnersfactsBox { padding: 50px 0px; }
+	.partnersfactsBox h1 { padding: 10px 0; font-size: 20px; }
+	.partnersfactsBox .image { padding: 0px 20px; margin-bottom: 10px; }
+	.partnersfactsBox .text h2 { padding: 10px 0; font-size: 20px; text-align: center; }
+	
+	.compensationBox { padding: 0 20px; }
+	.compensationBox .text { padding: 50px 0; width: 100%; }
+	.compensationBox .text h1 { font-size: 47px; }
+	.compensationBox .text h2 { font-size: 55px; }
+
+	.compensationtextBox { padding: 50px 15px; }
+	.compensationtextBox p { font-size: 20px; line-height: 30px; }
+	
+	
+	.combopack { padding: 20px 0; }
+	.combopack .bottomimage { padding: 30px 0; }
+	.combopack .bottomimage img { width: 100%; }
+	.combopack .productdetails { padding: 10px; }
+	.combopack .productdetails .productlist { padding: 20px 25px; }
+	.combopack .productdetails .productlist .item { text-align: center; }
+	.combopack .productdetails .productlist .item p { text-align: center; }
+	.combopack .productlistleft .list ul { padding: 60px 0px; }
+	.combopack .productlistleft .list ul li { font-size: 20px; }
+	.combopack .productlistleft { min-height: 270px; }
+	.productprice .product { padding: 0px; } 
+	.combopack .productlistleft .price { padding: 70px 40px; }
+	.productprice .product ul.heading li  { font-size: 10px; }
+	.productprice .product ul.headingbelow li:nth-child(1) { padding: 12px 0 0 5px; line-height: 15px; }
+	.itseasy { min-height: 319px; }
+	.threesteps { padding: 50px 0; }
+	.businessprofit { min-height: 320px; }
+	.threesteps .stepthree h2 { left: 35%; }
+	.threesteps .stepthree p { left: 31%; }
+	.planconsists { padding: 30px 0; }
+	.planconsists h2 { font-size: 40px; line-height: 50px; padding: 0px 5px; }
+	.planconsists .row  { padding: 0px; }
+	.planconsists p  { font-size: 35px; line-height: 35px; padding: 10px 0 0 0;}
+	.pricetab .priceleft .pricetop .row { padding: 25px 50px; }
+	.pricetab .priceleft .pricebottom { padding: 15px 15px; }
+	.pricetab .priceleft .pricebottom h2 { font-size: 35px; line-height: 35px; padding: 10px 0; }
+	.pricetab .priceleft .pricebottom p { padding: 10px 0; margin: 0; }
+	.pricetab .priceleft .pricebottom h3 { font-size: 20px; line-height: 20px; padding: 10px 0; }
+	.pricetab .priceleft .pricebottom h4 { padding: 10px 0; margin: 0; }
+	.pricetab .priceright { padding: 20px 20px; border: none; }
+	.pricetab .priceright .item { min-height: 180px; }
+	.pricetab .priceright .item .list ul { padding: 60px 0px 0px 15px; }
+	.pricetab .priceright .item .list ul li { font-size: 25px; line-height: 30px; }
+	.pricetab .priceright .item .price { padding: 40px 0px 0px 45px; }
+	.pricetab .priceright .item .price p { line-height: 40px; font-size: 25px; }
+	.pricetab .priceright .item .price p span { font-size: 30px; }
+	.retailtabs .card-header { background-size: contain; height: 50px; }
+	.retailtabs .card-header a { padding: 0px 0 0 40px; font-size: 12px; }
+	.retailprofit { padding: 20px 0; }
+	.retailprofit h2 { font-size: 25px; }
+	.retailprofit h2 img { width: 100px; }
+	.retailprofit p { color: #17becf; font-size: 18px; line-height: 25px; padding: 20px 20px; }
+	.retailprofitdown { padding: 20px 10px; }
+	.retailprofitdown fieldset { padding: 10px 10px;}
+	.retailprofitdown p { font-size: 15px; font-weight: bold; padding: 25px 15px; line-height: 20px; }
+	.retailprofitdown img { position: absolute; width: 90%; height: 50px; top: 200px; left: 5%; }
+	.treebox h2 { line-height: 30px; padding: 20px 35px; }
+	.treebox h3 { font-size: 20px; padding: 0; }
+	.treebox p { position: unset; width: 100%; }
+	
+	.treebelow .member li.first { font-size: 8px;     line-height: 8px; padding: 15px 4px;}
+	.treebelow .member li { font-size: 7px; padding: 22px 0; }
+	.generationbonus { padding: 20px 0; }
+	.generationbonus h2 { font-size: 20px; }
+	.generationbonus h2 img { width: 100px; }
+	.generationbonus img.chain { height: 220px; }
+	.generationbonus p { padding: 15px; }
+	.generationbonus span.you { width: 20%;line-height: 35px; font-size: 35px; }
+	.generationbonus span.ten { font-size: 91px;line-height: 59px; width: 30%; }
+	.generationbonus span.percent { width: 10%; font-size: 30px; line-height: 90px; }
+	.generationbonus span.product { width: 35%;padding: 0; font-size: 20px;line-height: 17px; }
+	.orbitalBox { padding: 10px 0; }
+	.orbitalBox h2 img { width: 100px; }
+	.orbitalBox h2 { padding: 10px 0; font-size: 20px; }
+	.orbitalBox .tableleft .table td { font-size: 10px; }
+	
+	.orbitalmachine { padding: 30px 0; }
+	.orbitalmachine .heading h2 { font-size: 25px; }
+	.orbitalmachine .product {padding: 15px 1px;}
+	.orbitalmachine .product ul.heading li { font-size: 7px; }
+	.orbitalmachine .product ul.headingbelow li { font-size: 6px; }
+	.orbitalimagebelow img { height: 220px; width: 100%; }
+	
+	.referralrewardBox h2 img { width: 100px; }
+	.referralrewardBox h2 { font-size: 20px; }
+	.referralrewardBox .image img { height: 150px; }
+	.collagenbone h2 { font-size: 21px; }
+
+    .referralrewardBox p { padding: 10px 20px; }
+    .referralrewardBox span.ten { font-size: 100px; line-height: 100px; }
+    .referralrewardBox span.percent { font-size: 70px; line-height: 120px; }
+    .referralrewardBox span.product { padding: 0px; }
+	
+	.diamondBox h2 { font-size: 15px; }
+	.diamondBox h2 img { width: 80px; }
+	
+	.leadershipbonusBox .points li { font-size: 10px; padding: 15px; float: left; margin: 0; }
+	
+	.leaderbonusBox { width: 100%; padding: 0px; }
+	.leadershipbonusBox h2 { font-size: 25px; }
+	.leadershipbonusBox h2 img { width:100px; }
+	
+	
+	.eliteBox { padding: 20px 0; min-height: 320px; }
+	.eliteBox h2 { font-size: 20px; }
+	.eliteBox h2 img { width: 100px; }
+	.eliteBox h3 { padding: 0; line-height: 0; font-size: 100px; }
+	.eliteBox h3 span { font-size: 70px; }
+	
+	.royaltyBox { padding: 20px 0; }
+	.royaltyBox h2 { font-size: 25px;}
+	.royaltyBox h2 img { width: 100px; }
+	.royaltyBox p {top: 53%; padding: 0; left: 25%;}
+	.royaltytab { padding: 15px 0; }
+	.royaltytab .product { padding: 10px;}
+	.royaltytab .product ul { width: 100%; float: left; }
+	.royaltytab .product ul.heading li:nth-child(1) { font-size: 12px; }
+	.royaltytab .product ul.heading li { font-size: 12px; }
+	.royaltytab .product ul.headingbelow li:nth-child(1) { width: 30%; }
+	.royaltytab .product ul.headingbelow li { width: 22%; padding: 48px 5px 48px 5px; font-size: 10px; }
+	.royaltytab .product ul.headingbelow li span { font-size: 20px; }
+	
+	.ninesteps { padding: 20px 0; min-height: 345px; }
+	.ninesteps p { padding: 0 0 0 10px; font-size: 15px; line-height: 15px; }
+	.sixsteps { padding: 20px 0; min-height: 345px;}
+	.sixsteps p { font-size: 25px; line-height: 25px; }
+	.sixsteps ul { padding: 130px 0 0 160px;  width: 372px; }
+	.sixsteps ul li { font-size: 14px; line-height: 20px; }
+	
+	.collagenintro .text { padding: 20px; }
+	.collageningredients .image img { height: auto; }
+	.collagenhowdoes .image img { height: auto; }
+	.collagenbone ul { padding: 0 50px; }
+	.collagenbone ul li { width: 100%; }
+	.collagenbone ul li p { padding: 0; }
+	.collagenbone2 ul { padding: 0 50px; }
+	.collagenbone2 ul li { width: 100%; }
+	.collagenbone2 ul li p { padding: 0; }
+	.collagendosagesafety .image { padding: 50px 10px; }
+	.collagendosagesafety .text { padding: 50px 0; }
+	.collagenbehind h2:after  {top: 85px;  background-position: 65%;}
+	.collageningredients .text { height: auto; padding: 20px; }
+	.collagenhowdoes .text { height: auto; padding: 20px; }
+	.collagenintro .text h2 { font-size: 35px; }
+	.collagenintro .text span { font-size: 19px; }
+	
+	.windlas { padding: 40px 0; }
+	.windlas .text h3 { padding: 10px 0; text-align: center; font-size: 20px;  }
+	.windlas .text h2 { font-size: 18px; text-align: center;}
+	.windlas .text p { text-align: justify; }
+	
+	.dupont { padding: 40px 0; }
+	.dupont .text h3 { padding: 10px 0; text-align: center; font-size: 20px;  }
+	.dupont .text h2 { font-size: 18px; text-align: center;}
+	.dupont .text p { text-align: justify; }
+	
+	.astareal { padding: 40px 0; }
+	.astareal .text h3 { padding: 10px 0; text-align: center; font-size: 20px;  }
+	.astareal .text h2 { font-size: 18px; text-align: center;}
+	.astareal .text p { text-align: justify; }
+	
+	.popup { width: 100%; }
+	#searcharea {text-align: center; right: 0; top: 63px;}
+
+	.contactus .image img { height: auto;	 }
+	.contactimg h2:after { top: 0; height: 50px; }
+	.address .item { background: #f8f8f8; padding: 20px 10px; }
+	.address .item h2 { text-align: center; }
+	.address .item p { text-align: center; }
+	.address .item h3 { padding: 0; }
+
+	.collagenbehind h2 { padding: 26px 0; }
+	.collagenbehind h2 a { padding: 17px 10px; }
+	.collagenbehind h2:after { height: 45px; }
+	.collagenvideo iframe { height: 220px;  }
+	.googlemap iframe { height: 220px;  }
+	.collagenintro .text span:after { top: 70px; }
+   .footer .logo ul li { float: left; padding-right: 12px; }
+   .footer .links.about { top: 310px;  }
+   .footer .map  {  position: absolute;  right: 0; top: 25px; width: 163px;}
+   .footer .map iframe { height: 60px; }
+   
+   .footer .links ul li { font-size: 11px; }
+   .footer .tollfreeno {position: absolute; top: 60px; left: 0; padding: 0 15px;}
+   .footer .tollfreeno p { font-size: 16px; }
+   .footer .tollfreeno p span { display: block; position: absolute; left: 0; padding: 0 10px;}
+   
+    /* contact us */
+    .address .item h2 { font-size: 20px; }
+    .address .item p { font-size: 16px; }
+    .address .item h3, .address .item h3 span { font-size: 15px; text-align: center; }
+    .address .item { min-height: 0; }
+    .contactimg h2 { padding: 35px 0; }
+    .address .item.con { min-height: 375px; }
+  /*  .startup_makeinindia .startupindia .staymevicon h5 { text-align: left; }
+    .startup_makeinindia .startupindia img { width: 230px;}
+    .startup_makeinindia .startupindia .image_ { text-align: left; }
+    .startup_makeinindia .startupindia .staymevicon { width: 100%; float: left; }
+    .startup_makeinindia .makeinindia { width: 100%; border-right: none; }
+    .startup_makeinindia .startupindia, .startup_makeinindia .startupindia .staymevicon .satyalogo { text-align: center; width: 100%; }*/
+    
+    /* topbar  */
+    .top .supportindia .startup { width: 50%;  }
+    .top .supportindia h2 { position: initial; font-size: 12px; text-align: center; transform: none; }
+    .top .supportindia .makeinindia { width: 50%;  }
+    .top .supportindia .ashok { width: 100%;  }
+    .top .supportindia { width: 100%; padding: 0 10px;}
+    .top .supportindia .text { }
+    .top .supportindia .text span {     margin-left: 38px; font-size: 10px; }
+
+}
+@media (max-width: 420px) { 
+    
+    
+    
+    
+    
+}
+@media (max-width: 480px) {
+    .footer .links.about { top: 290px; }
+    .collagenintro .text span:after { top: 60px; }
+    .top .startup_makeinindia h2 { left: 140px; }
+    .tollfreeno p { text-align: right; }
+    .tollfreeno { left: -94px; right: 65px; }
+    .header .searchBox ul li a.storelogin { padding: 40px 0; }
+}
+@media (max-width: 320px) {
+    #searcharea { right: 0; top: 60px; }
+    .collagenintro .text span:after { top: 70px; }
+    .top .startup_makeinindia h2 { left: 126px;  }
+   
+    
+    
+}

@@ -1,0 +1,101 @@
+
+/*
+@font-face {
+    font-family: 'GothamBlackRegular';
+    src: url('../fonts/GothamBlackRegular.eot');
+    src: url('../fonts/GothamBlackRegular.eot') format('embedded-opentype'),
+         url('../fonts/GothamBlackRegular.woff2') format('woff2'),
+         url('../fonts/GothamBlackRegular.woff') format('woff'),
+         url('../fonts/GothamBlackRegular.ttf') format('truetype'),
+         url('../fonts/GothamBlackRegular.svg#GothamBlackRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'HelveticaCondensed';
+    src: url('../fonts/HelveticaCondensed.eot');
+    src: url('../fonts/HelveticaCondensed.eot') format('embedded-opentype'),
+         url('../fonts/HelveticaCondensed.woff2') format('woff2'),
+         url('../fonts/HelveticaCondensed.woff') format('woff'),
+         url('../fonts/HelveticaCondensed.ttf') format('truetype'),
+         url('../fonts/HelveticaCondensed.svg#HelveticaCondensed') format('svg');
+}
+
+@font-face {
+    font-family: 'museosansrounded300webfont';
+    src: url('../fonts/museosansrounded300webfont.eot');
+    src: url('../fonts/museosansrounded300webfont.eot') format('embedded-opentype'),
+         url('../fonts/museosansrounded300webfont.woff2') format('woff2'),
+         url('../fonts/museosansrounded300webfont.woff') format('woff'),
+         url('../fonts/museosansrounded300webfont.ttf') format('truetype'),
+         url('../fonts/museosansrounded300webfont.svg#museosansrounded300webfont') format('svg');
+}
+
+@font-face {
+    font-family: 'BebasNeueRegular_1';
+    src: url('../fonts/BebasNeueRegular_1.eot');
+    src: url('../fonts/BebasNeueRegular_1.eot') format('embedded-opentype'),
+         url('../fonts/BebasNeueRegular_1.woff2') format('woff2'),
+         url('../fonts/BebasNeueRegular_1.woff') format('woff'),
+         url('../fonts/BebasNeueRegular_1.ttf') format('truetype'),
+         url('../fonts/BebasNeueRegular_1.svg#BebasNeueRegular_1') format('svg');
+}
+
+*/
+
+/* amar  */
+@font-face {
+    font-family: 'GothamBlackRegular';
+    src: url('../fonts/GothamBlackRegular.ttf');
+   
+}
+
+@font-face {
+    font-family: 'helvetica87-condensedheavy';
+    src: url('../fonts/helvetica87-condensedheavy.ttf');
+   
+}
+@font-face {
+    font-family: 'HelveticaNeueLTCom-Cn';
+    src: url('../fonts/HelveticaNeueLTCom-Cn.ttf');
+   
+}
+
+@font-face {
+    font-family: 'BEBAS';
+    src: url('../fonts/BEBAS.ttf');
+   
+}
+
+@font-face {
+    font-family: 'helveticainserat';
+    src: url('../fonts/helveticainserat.ttf');
+   
+}
+
+@font-face {
+    font-family: 'HelveticaInserat-Roman';
+    src: url('../fonts/HelveticaInserat-Roman.otf');
+   
+}
+
+@font-face {
+    font-family: 'MuseoSansRounded-900';
+    src: url('../fonts/MuseoSansRounded-900.otf');
+   
+}
+
+@font-face {
+    font-family: 'MuseoSansRounded-700';
+    src: url('../fonts/MuseoSansRounded-700.otf');
+   
+}
+@font-face {
+    font-family: 'MuseoSansRounded-500';
+    src: url('../fonts/MuseoSansRounded-500.otf');
+   
+}
+@font-face {
+    font-family: 'MuseoSansRounded-300';
+    src: url('../fonts/MuseoSansRounded-300.otf');
+   
+}
